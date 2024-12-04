@@ -1,0 +1,958 @@
+﻿l_english:
+ ### Main Window ###
+ DI_button_tt: "Divine Intervention เมนู"
+ DI_VIEW_TITLE: "Divine Intervention เมนู"
+ # buttons
+ DI_char_editor_tt: "เปิดเมนูเพื่อแก้ไขแง่มุมต่างๆ ของตัวละครที่ปักหมุดไว้ทั้งหมด รวมถึงเมนูปัจจุบัน."
+ DI_pinned_characters_tt: "เปิดเมนูที่คุณสามารถเพิ่มและลบสกุลเงิน, ดูตัวละครที่ปักหมุดไว้ และอื่นๆ."
+ DI_char_spawner_tt: "เปิดเมนูที่คุณสามารถเลือกตัวละครจากรายการเพื่อนำเข้ามาในเกม."
+ DI_army_spawner_tt: "เปิดเมนูที่คุณสามารถเลือกจากรายการกองทหารต่างๆ และกำหนดจำนวนที่จะนำเข้ามา."
+ DI_diplomacy_tt: "เปิดหน้าต่างที่คุณสามารถจัดการการดำเนินการทางการทูตของตัวละครที่ปักหมุดไว้."
+ DI_artifact_creator_tt: "เปิดเมนูที่คุณสามารถดูรายการสิ่งประดิษฐ์ของตัวละครที่ปักหมุดไว้, สร้างสิ่งประดิษฐ์, และทำเอฟเฟกต์ต่างๆ กับสิ่งประดิษฐ์ที่ระบุ."
+ DI_cultural_editor_window: "ตัวแก้ไขวัฒนธรรม" # button label
+ DI_cultural_editor_window_tt: "เปิดเมนูที่คุณสามารถแก้ไขวัฒนธรรมของตัวละครที่ปักหมุดไว้."
+ DI_debug_mode: "โหมดดีบัก"
+ DI_debug_mode_tt: "เปิด/ปิดโหมดดีบัก (จะปิดการใช้งานความสำเร็จ)."
+ DI_clear_pins: "ล้างหมุดทั้งหมด"
+ DI_clear_pins_tt: "คลิกซ้ายเพื่อล้างหมุดทั้งหมด."
+ DI_test_button: "หน้าต่างทดสอบ"
+ DI_test_button_tt: "เปิดหน้าต่างทดสอบ."
+ ### Character Editor ###
+ DI_char_editor: "ตัวแก้ไขตัวละคร" # window title / button label
+ DI_tab_presents: "ปัจจุบัน" # category button label
+ DI_tab_skills: "ทักษะ" # category button label
+ DI_tab_perk_points: "คะแนนความสามารถ" # category button label
+ DI_tab_modifiers: "ตัวปรับแต่ง" # category button label
+ DI_tab_traits: "ลักษณะนิสัย" # category button label
+ DI_tab_sexuality: "เพศวิถี" # category button label
+ DI_tab_culture: "วัฒนธรรม" # category button label
+ DI_tab_religion: "ศาสนา" # category button label
+ # categories in character editor
+ DI_present_char_editor: "ของขวัญ" # category button label
+ DI_present_char_editor_TT: "เมนูที่คุณสามารถเลือกหมวดหมู่ 'ของขวัญ' ต่าง ๆ เพื่อช่วยหรือทำร้ายตัวละครที่ปักหมุดได้อย่างรวดเร็ว"
+ DI_skill_char_editor: "ทักษะ" # category button label
+ DI_skill_char_editor_TT: "เมนูที่คุณสามารถแก้ไขทักษะของตัวละครที่ปักหมุดได้"
+ DI_perk_point_char_editor: "แต้มสิทธิประโยชน์"
+ DI_modifiers_char_editor: "ตัวปรับแต่ง"
+ DI_modifiers_char_editor_TT: "เมนูที่คุณสามารถเพิ่มหรือลบตัวปรับแต่งส่วนใหญ่ในเกมให้กับตัวละครที่ปักหมุด"
+ DI_traits_char_editor: "ลักษณะนิสัย"
+ DI_traits_char_editor_TT: "เมนูที่คุณสามารถเพิ่มหรือลบลักษณะนิสัยส่วนใหญ่ในเกมให้กับตัวละครที่ปักหมุด"
+ DI_clear_all_traits: "ลบลักษณะนิสัยทั้งหมด"
+ DI_sexuality_char_editor: "เพศวิถี"
+ DI_sexuality_char_editor_TT: "เมนูที่คุณสามารถเลือกเพศวิถีของตัวละครที่ปักหมุด"
+ DI_culture_group_char_editor: "วัฒนธรรม"
+ DI_culture_group_char_editor_TT: "เมนูที่คุณสามารถเลือกวัฒนธรรมเพื่อเปลี่ยนตัวละครที่ปักหมุด"
+ DI_religion_group_char_editor: "ศาสนา"
+ DI_religion_group_char_editor_TT: "เมนูที่คุณสามารถเลือกศาสนาเพื่อเปลี่ยนตัวละครที่ปักหมุด"
+ ### Character Editor Presents ###
+ DI_char_editor_present: "ตัวเลือกของขวัญสำหรับตัวแก้ไขตัวละคร" # window title
+ DI_tab_lifestyle: "วิถีชีวิต" # category button label
+ DI_tab_health: "สุขภาพ" # category button label
+ DI_tab_innovations: "นวัตกรรม" # category button label
+ DI_tab_laws: "กฎหมาย" # category button label
+ # misc labels 
+ DI_generic_window_choose: "เลือกหมวดหมู่"
+ DI_choose_present: "เลือกหมวดหมู่ที่มีอยู่"
+ # categories in character editor presents
+ DI_present_lifestyle: "ไลฟ์สไตล์"
+ DI_present_lifestyle_TT: "หมวดหมู่ที่คลิกเพื่อแสดงไลฟ์สไตล์ด้านล่าง"
+ DI_present_health: "สุขภาพ"
+ DI_present_health_TT: "หมวดหมู่ที่คลิกเพื่อแสดงสุขภาพด้านล่าง"
+ DI_present_traits: "ลักษณะนิสัย"
+ DI_present_traits_TT: "หมวดหมู่ที่คลิกเพื่อแสดงลักษณะนิสัยด้านล่าง"
+ DI_present_innovation: "นวัตกรรม"
+ DI_present_innovation_TT: "หมวดหมู่ที่คลิกเพื่อแสดงนวัตกรรมด้านล่างและเปิดหน้าต่างนวัตกรรม"
+ DI_present_laws: "กฎหมาย"
+ DI_present_laws_TT: "หมวดหมู่ที่คลิกเพื่อแสดงกฎหมายด้านล่าง"
+ # lifestyle category
+ DI_ce_all_lifestyle_button: "สิทธิพิเศษไลฟ์สไตล์ทั้งหมด" # button label
+ DI_ce_all_lifestyle_button_tt: "#Bold คลิกซ้าย#! เพื่อทำให้เสร็จสิ้นต้นไม้ไลฟ์สไตล์ทั้งหมด.\n#Bold คลิกขวา#! เพื่อล้างต้นไม้ไลฟ์สไตล์ทั้งหมด."
+ DI_ce_martial_lifestyle_button: "สิทธิพิเศษไลฟ์สไตล์การทหารทั้งหมด" # button label
+ DI_ce_martial_lifestyle_button_tt: "#Bold คลิกซ้าย#! เพื่อทำให้เสร็จสิ้นต้นไม้ไลฟ์สไตล์การทหาร.\n#Bold คลิกขวา#! เพื่อล้างต้นไม้ไลฟ์สไตล์การทหาร."
+ DI_ce_diplomacy_lifestyle_button: "สิทธิพิเศษไลฟ์สไตล์การทูตทั้งหมด" # button label
+ DI_ce_diplomacy_lifestyle_button_tt: "#Bold คลิกซ้าย#! เพื่อทำให้เสร็จสิ้นต้นไม้ไลฟ์สไตล์การทูต.\n#Bold คลิกขวา#! เพื่อล้างต้นไม้ไลฟ์สไตล์การทูต."
+ DI_ce_stewardship_lifestyle_button: "สิทธิพิเศษไลฟ์สไตล์การบริหารทั้งหมด" # button label
+ DI_ce_stewardship_lifestyle_button_tt: "#Bold คลิกซ้าย#! เพื่อทำให้เสร็จสิ้นต้นไม้ไลฟ์สไตล์การบริหาร.\n#Bold คลิกขวา#! เพื่อล้างต้นไม้ไลฟ์สไตล์การบริหาร."
+ DI_ce_intrigue_lifestyle_button: "สิทธิพิเศษไลฟ์สไตล์การกลั่นแกล้งทั้งหมด" # button label
+ DI_ce_intrigue_lifestyle_button_tt: "#Bold คลิกซ้าย#! เพื่อทำให้เสร็จสิ้นต้นไม้ไลฟ์สไตล์การกลั่นแกล้ง.\n#Bold คลิกขวา#! เพื่อล้างต้นไม้ไลฟ์สไตล์การกลั่นแกล้ง."
+ DI_ce_learning_lifestyle_button: "สิทธิพิเศษไลฟ์สไตล์การเรียนรู้ทั้งหมด" # button label
+ DI_ce_learning_lifestyle_button_tt: "#Bold คลิกซ้าย#! เพื่อทำให้เสร็จสิ้นต้นไม้ไลฟ์สไตล์การเรียนรู้.\n#Bold คลิกขวา#! เพื่อล้างต้นไม้ไลฟ์สไตล์การเรียนรู้."
+ DI_ce_wandering_lifestyle_button: "ไลฟ์สไตล์การเดินทาง" # button label
+ DI_ce_wandering_lifestyle_button_tt: "#Bold คลิกซ้าย#! เพื่อเพิ่มต้นไม้ไลฟ์สไตล์การเดินทาง.\n#Bold คลิกขวา#! เพื่อเอาต้นไม้ไลฟ์สไตล์การเดินทางออก."
+ DI_present_add_lifestyle_all: "สิทธิพิเศษไลฟ์สไตล์ทั้งหมด"
+ DI_present_lifestyle_all_TT: "เติมเต็มต้นไม้ไลฟ์สไตล์ทั้งหมด.\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ DI_present_lifestyle_martial: "สิทธิพิเศษไลฟ์สไตล์การทหารทั้งหมด"
+ DI_present_lifestyle_martial_TT: "เติมเต็มต้นไม้ไลฟ์สไตล์การทหาร.\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ DI_present_lifestyle_diplomacy: "สิทธิพิเศษไลฟ์สไตล์การทูตทั้งหมด"
+ DI_present_lifestyle_diplomacy_TT: "เติมเต็มต้นไม้ไลฟ์สไตล์การทูต.\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ DI_present_lifestyle_stewardship: "สิทธิพิเศษไลฟ์สไตล์การบริหารทั้งหมด"
+ DI_present_lifestyle_stewardship_TT: "เติมเต็มต้นไม้ไลฟ์สไตล์การบริหาร.\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ DI_present_lifestyle_intrigue: "สิทธิพิเศษไลฟ์สไตล์การกลั่นแกล้งทั้งหมด"
+ DI_present_lifestyle_intrigue_TT: "เติมเต็มต้นไม้ไลฟ์สไตล์การกลั่นแกล้ง.\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ DI_present_lifestyle_learning: "สิทธิพิเศษไลฟ์สไตล์การเรียนรู้ทั้งหมด"
+ DI_present_lifestyle_learning_TT: "เติมเต็มต้นไม้ไลฟ์สไตล์การเรียนรู้.\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ # health category
+ DI_ce_eliminate_health_issues_button: "กำจัดปัญหาสุขภาพ" # button label
+ DI_ce_eliminate_health_issues_button_tt: "#Bold คลิกซ้าย#! เพื่อกำจัดปัญหาสุขภาพทั้งหมด."
+ DI_ce_good_genes_button: "ยีนดี" # button label
+ DI_ce_good_genes_button_tt: "#Bold คลิกซ้าย#! เพื่อเพิ่มยีนดี.\n#Bold คลิกขวา#! เพื่อเอายีนดีออก."
+ DI_ce_bad_genes_button: "ยีนไม่ดี" # button label
+ DI_ce_bad_genes_button_tt: "#Bold คลิกซ้าย#! เพื่อเพิ่มยีนไม่ดี.\n#Bold คลิกขวา#! เพื่อเอายีนไม่ดีออก."
+ DI_ce_lock_stress_button: "ล็อกระดับความเครียด" # button label
+ DI_ce_lock_stress_button_tt: "#Bold คลิกซ้าย#! เพื่อล็อกระดับความเครียด.\n#Bold คลิกขวา#! เพื่อปลดล็อกระดับความเครียด."
+ DI_ce_lock_tyranny_button: "ล็อกระดับการกดขี่" # button label
+ DI_ce_lock_tyranny_button_tt: "#Bold คลิกซ้าย#! เพื่อล็อกระดับการกดขี่.\n#Bold คลิกขวา#! เพื่อปลดล็อกระดับการกดขี่."
+ DI_ce_lock_dread_button: "ล็อกระดับความหวาดกลัว" # button label
+ DI_ce_lock_dread_button_tt: "#Bold คลิกซ้าย#! เพื่อล็อกระดับความหวาดกลัว.\n#Bold คลิกขวา#! เพื่อปลดล็อกระดับความหวาดกลัว."
+ DI_present_health_eliminate_issues: "กำจัดปัญหาสุขภาพ"
+ DI_present_health_eliminate_issues_TT: "ลบปัญหาสุขภาพที่เป็นอันตราย."
+ DI_present_health_good_genes: "ยีนดี"
+ DI_present_health_good_genes_TT: "ลบยีนสุขภาพไม่ดีและเพิ่มยีนที่ดีที่สุด.\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ DI_present_health_bad_genes: "ยีนไม่ดี"
+ DI_present_health_bad_genes_TT: "ลบยีนสุขภาพดีและเพิ่มยีนที่แย่ที่สุด.\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ DI_present_health_no_stress_change: "ล็อกระดับความเครียด"
+ DI_present_health_no_stress_change_TT: "ตัวแก้ไขที่จะล็อกระดับความเครียดที่ค่าปัจจุบัน.\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ DI_present_health_no_tyranny_change: "ล็อกระดับการกดขี่"
+ DI_present_health_no_tyranny_change_TT: "ตัวแก้ไขที่จะล็อกระดับการกดขี่ที่ค่าปัจจุบัน.\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ DI_present_health_no_dread_change: "ล็อกระดับความหวาดกลัว"
+ DI_present_health_no_dread_change_TT: "ตัวแก้ไขที่จะล็อกระดับความหวาดกลัวที่ค่าปัจจุบัน.\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ # traits category
+ DI_ce_randomize_personality_button: "สุ่มลักษณะบุคลิกภาพ" # button label
+ DI_ce_randomize_personality_button_tt: "#Bold คลิกซ้าย#! เพื่อสุ่มลักษณะบุคลิกภาพ.\n#Bold คลิกขวา#! เพื่อเคลียร์ลักษณะบุคลิกภาพ."
+ DI_ce_special_traits_button: "ลักษณะพิเศษของม็อด" # button label
+ DI_ce_special_traits_button_tt: "#Bold คลิกซ้าย#! เพื่อเพิ่มลักษณะพิเศษทั้งหมดที่มาจากม็อดนี้.\n#Bold คลิกขวา#! เพื่อเอาลักษณะพิเศษทั้งหมดออก."
+ DI_ce_commander_traits_button: "ลักษณะของผู้บัญชาการ" # button label
+ DI_ce_commander_traits_button_tt: "#Bold คลิกซ้าย#! เพื่อเพิ่มลักษณะของผู้บัญชาการทั้งหมด.\n#Bold คลิกขวา#! เพื่อเอาลักษณะของผู้บัญชาการทั้งหมดออก."
+ DI_ce_aggressive_traits_button: "ลักษณะบุคลิกภาพก้าวร้าว" # button label
+ DI_ce_aggressive_traits_button_tt: "#Bold คลิกซ้าย#! เพื่อเพิ่มลักษณะบุคลิกภาพก้าวร้าว.\n#Bold คลิกขวา#! เพื่อเอาลักษณะบุคลิกภาพก้าวร้าวออก."
+ DI_ce_timid_traits_button: "ลักษณะบุคลิกภาพขี้อาย" # button label
+ DI_ce_timid_traits_button_tt: "#Bold คลิกซ้าย#! เพื่อเพิ่มลักษณะบุคลิกภาพขี้อาย.\n#Bold คลิกขวา#! เพื่อเอาลักษณะบุคลิกภาพขี้อายออก."
+ DI_ce_giant_traits_button: "ทำให้ยักษ์" # button label
+ DI_ce_giant_traits_button_tt: "#Bold คลิกซ้าย#! เพื่อเพิ่มลักษณะทำให้ตัวละครเป็นยักษ์.\n#Bold คลิกขวา#! เพื่อเอาลักษณะทำให้ตัวละครเป็นยักษ์ออก."
+ DI_ce_dwarf_traits_button: "ทำให้แคระ" # button label
+ DI_ce_dwarf_traits_button_tt: "#Bold คลิกซ้าย#! เพื่อเพิ่มลักษณะทำให้ตัวละครเป็นแคระ.\n#Bold คลิกขวา#! เพื่อเอาลักษณะทำให้ตัวละครเป็นแคระออก."
+ DI_ce_albino_traits_button: "ทำให้ดูเหมือนผี" # button label
+ DI_ce_albino_traits_button_tt: "#Bold คลิกซ้าย#! เพื่อเพิ่มลักษณะทำให้ตัวละครดูเหมือนผี.\n#Bold คลิกขวา#! เพื่อเอาลักษณะทำให้ตัวละครดูเหมือนผีออก."
+ DI_present_traits_randomize: "สุ่มลักษณะบุคลิกภาพ"
+ DI_present_traits_randomize_TT: "เปลี่ยนลักษณะบุคลิกภาพปัจจุบันด้วยลักษณะสุ่มสามตัว."
+ DI_present_traits_special: "ลักษณะพิเศษของม็อด"
+ DI_present_traits_special_TT: "เพิ่มหรือลบลักษณะพิเศษทั้งหมดที่เพิ่มโดยม็อดนี้.\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ DI_present_traits_commander: "ลักษณะของผู้บัญชาการ"
+ DI_present_traits_commander_TT: "เพิ่มหรือลบลักษณะของผู้บัญชาการทั้งหมด.\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ DI_present_traits_giant: "ทำให้ยักษ์"
+ DI_present_traits_giant_TT: "เพิ่มหรือลบลักษณะทำให้ตัวละครเป็นยักษ์.\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ DI_present_traits_midget: "ทำให้ตัวเล็ก"
+ DI_present_traits_midget_TT: "เพิ่มหรือลบลักษณะทำให้ตัวละครตัวเล็ก.\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ DI_present_traits_ghostly: "ทำให้ดูเหมือนผี"
+ DI_present_traits_ghostly_TT: "เพิ่มหรือลบลักษณะทำให้ตัวละครดูเหมือนผี.\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ # innovation category
+ DI_present_innovation_regional: "นวัตกรรมพิเศษ"
+ DI_present_innovation_regional_TT: "เพิ่มนวัตกรรมพิเศษทั้งหมดให้กับวัฒนธรรมของตัวละครที่ปักหมุดหรือวัฒนธรรมของตัวละครผู้เล่น."
+ DI_present_innovation_local: "นวัตกรรมทางวัฒนธรรม"
+ DI_present_innovation_local_TT: "เพิ่มนวัตกรรมทางวัฒนธรรมทั้งหมดให้กับวัฒนธรรมของตัวละครที่ปักหมุดหรือวัฒนธรรมของตัวละครผู้เล่น."
+ DI_present_innovation_select_regional: "เลือกนวัตกรรมพิเศษ"
+ DI_present_innovation_select_regional_TT: "เลือกหมวดหมู่ คลิกเพื่อแสดงเมนูใหม่ที่ให้คุณเลือกนวัตกรรมพิเศษตามยุคที่ต้องการเพิ่มหรือลบจากวัฒนธรรมของตัวละครที่ปักหมุด."
+ DI_present_innovation_select_local: "เลือกนวัตกรรมทางวัฒนธรรม"
+ DI_present_innovation_select_local_TT: "เลือกหมวดหมู่ คลิกเพื่อแสดงเมนูใหม่ที่ให้คุณเลือกนวัตกรรมทางวัฒนธรรมตามยุคที่ต้องการเพิ่มหรือลบจากวัฒนธรรมของตัวละครที่ปักหมุด."
+ DI_present_remove_all_innovations: "ลบทุกนวัตกรรม"
+ DI_present_remove_all_innovations_TT: "ลบนวัตกรรมทั้งหมดจากวัฒนธรรมของตัวละครที่เลือก."
+ DI_present_innovation_regional_tribal: "นวัตกรรมชนเผ่าพิเศษทั้งหมด"
+ DI_present_innovation_regional_tribal_TT: "เพิ่มนวัตกรรมชนเผ่าพิเศษทั้งหมดให้กับวัฒนธรรมของตัวละครที่ปักหมุด."
+ DI_present_innovation_regional_early: "นวัตกรรมยุคกลางต้นพิเศษทั้งหมด"
+ DI_present_innovation_regional_early_TT: "เพิ่มนวัตกรรมยุคกลางต้นพิเศษทั้งหมดให้กับวัฒนธรรมของตัวละครที่ปักหมุด."
+ DI_present_innovation_regional_high: "นวัตกรรมยุคกลางสูงพิเศษทั้งหมด"
+ DI_present_innovation_regional_high_TT: "เพิ่มนวัตกรรมยุคกลางสูงพิเศษทั้งหมดให้กับวัฒนธรรมของตัวละครที่ปักหมุด."
+ DI_present_innovation_regional_late: "นวัตกรรมยุคกลางปลายพิเศษทั้งหมด"
+ DI_present_innovation_regional_late_TT: "เพิ่มนวัตกรรมยุคกลางปลายพิเศษทั้งหมดให้กับวัฒนธรรมของตัวละครที่ปักหมุด."
+ DI_present_innovation_tribal: "นวัตกรรมชนเผ่าทางวัฒนธรรมทั้งหมด"
+ DI_present_innovation_tribal_TT: "เพิ่มนวัตกรรมชนเผ่าทางวัฒนธรรมทั้งหมดให้กับวัฒนธรรมของตัวละครที่ปักหมุด."
+ DI_present_innovation_early: "นวัตกรรมยุคกลางต้นทางวัฒนธรรมทั้งหมด"
+ DI_present_innovation_early_TT: "เพิ่มนวัตกรรมยุคกลางต้นทางวัฒนธรรมทั้งหมดให้กับวัฒนธรรมของตัวละครที่ปักหมุด."
+ DI_present_innovation_high: "นวัตกรรมยุคกลางสูงทางวัฒนธรรมทั้งหมด"
+ DI_present_innovation_high_TT: "เพิ่มนวัตกรรมยุคกลางสูงทางวัฒนธรรมทั้งหมดให้กับวัฒนธรรมของตัวละครที่ปักหมุด."
+ DI_present_innovation_late: "นวัตกรรมยุคกลางปลายทางวัฒนธรรมทั้งหมด"
+ DI_present_innovation_late_TT: "เพิ่มนวัตกรรมยุคกลางปลายทางวัฒนธรรมทั้งหมดให้กับวัฒนธรรมของตัวละครที่ปักหมุด."
+ DI_present_innovation_select_regional_tribal: "นวัตกรรมชนเผ่าพิเศษ"
+ DI_present_innovation_select_regional_tribal_TT: "หมวดหมู่ คลิกเพื่อแสดงนวัตกรรมชนเผ่าพิเศษด้านล่าง."
+ DI_present_innovation_select_regional_early: "นวัตกรรมยุคกลางต้นพิเศษ"
+ DI_present_innovation_select_regional_early_TT: "หมวดหมู่ คลิกเพื่อแสดงนวัตกรรมยุคกลางต้นพิเศษด้านล่าง."
+ DI_present_innovation_select_regional_high: "นวัตกรรมยุคกลางสูงพิเศษ"
+ DI_present_innovation_select_regional_high_TT: "หมวดหมู่ คลิกเพื่อแสดงนวัตกรรมยุคกลางสูงพิเศษด้านล่าง."
+ DI_present_innovation_select_regional_late: "นวัตกรรมยุคกลางปลายพิเศษ"
+ DI_present_innovation_select_regional_late_TT: "หมวดหมู่ คลิกเพื่อแสดงนวัตกรรมยุคกลางปลายพิเศษด้านล่าง."
+ DI_present_innovation_select_local_tribal: "นวัตกรรมชนเผ่าทางวัฒนธรรม"
+ DI_present_innovation_select_local_tribal_TT: "หมวดหมู่ คลิกเพื่อแสดงนวัตกรรมชนเผ่าทางวัฒนธรรมด้านล่าง."
+ DI_present_innovation_select_local_early: "นวัตกรรมยุคกลางต้นทางวัฒนธรรม"
+ DI_present_innovation_select_local_early_TT: "หมวดหมู่ คลิกเพื่อแสดงนวัตกรรมยุคกลางต้นทางวัฒนธรรมด้านล่าง."
+ DI_present_innovation_select_local_high: "นวัตกรรมยุคกลางสูงทางวัฒนธรรม"
+ DI_present_innovation_select_local_high_TT: "หมวดหมู่ คลิกเพื่อแสดงนวัตกรรมยุคกลางสูงทางวัฒนธรรมด้านล่าง."
+ DI_present_innovation_select_local_late: "นวัตกรรมยุคกลางปลายทางวัฒนธรรม"
+ DI_present_innovation_select_local_late_TT: "หมวดหมู่ คลิกเพื่อแสดงนวัตกรรมยุคกลางปลายทางวัฒนธรรมด้านล่าง."
+ DI_present_innovation_mass: "เลือกอย่างรวดเร็ว"
+ DI_present_innovation_mass_TT: "คลิกเพื่อแสดงยุคของนวัตกรรมทางวัฒนธรรมและพิเศษที่สามารถเลือกได้. การเลือกตัวเลือกจะทำให้คุณได้ทุกนวัตกรรมของประเภทนั้น."
+ DI_present_innovation_select_tribal: "ชนเผ่า"
+ DI_present_innovation_select_tribal_TT: "คลิกเพื่อแสดงนวัตกรรมชนเผ่าด้านล่าง."
+ DI_present_innovation_select_early_medieval: "ยุคต้น"
+ DI_present_innovation_select_early_medieval_TT: "คลิกเพื่อแสดงนวัตกรรมยุคกลางต้นด้านล่าง."
+ DI_present_innovation_select_high_medieval: "ยุคสูง"
+ DI_present_innovation_select_high_medieval_TT: "คลิกเพื่อแสดงนวัตกรรมยุคกลางสูงด้านล่าง."
+ DI_present_innovation_select_late_medieval: "ยุคปลาย"
+ DI_present_innovation_select_late_medieval_TT: "คลิกเพื่อแสดงนวัตกรรมยุคกลางปลายด้านล่าง."
+ # laws category
+ DI_ce_gender_equality_button: "ความเท่าเทียมทางเพศ" # button label
+ DI_ce_gender_equality_button_tt: "#Bold Left-Click#! เพื่อทำให้ลัทธิศรัทธามีความเท่าเทียมทางเพศ, นักบวชสามารถเป็นเพศใดก็ได้, ทั้งสองเพศอาจถูกยอมรับหรือถูกแยกออก, กฎหมายของอาณาจักรเท่าเทียม, ขนบธรรมเนียมทางการทหารของวัฒนธรรมเท่าเทียม."
+ DI_ce_inverse_genders_button: "สลับบรรทัดฐานทางเพศ" # button label
+ DI_ce_inverse_genders_button_tt: "#Bold Left-Click#! เพื่อสลับหลักคำสอนทางเพศของลัทธิ, สลับเพศของนักบวช, สลับหลักการผิดศีลธรรมทางเพศ, สลับกฎหมายทางเพศของอาณาจักรที่อาจนำไปสู่การปลดออก, ปลดหัวหน้าศาสนาผู้มีเพศตรงข้าม, สลับขนบธรรมเนียมการทหารของวัฒนธรรม."
+ DI_ce_female_dominated_button: "ผู้หญิงมีอำนาจ" # button label
+ DI_ce_female_dominated_button_tt: "#Bold Left-Click#! เพื่อกำหนดลัทธิศรัทธาที่มีผู้หญิงเป็นผู้นำ, นักบวชเฉพาะผู้หญิง, การผิดศีลธรรมของผู้หญิงยอมรับ, การผิดศีลธรรมของผู้ชายจะถูกปฏิเสธเว้นแต่เป็นอาชญากรรม, กฎหมายของอาณาจักรเป็นของผู้หญิงเท่านั้น, ขนบธรรมเนียมการทหารเป็นของผู้หญิงเท่านั้น."
+ DI_ce_male_dominated_button: "ผู้ชายมีอำนาจ" # button label
+ DI_ce_male_dominated_button_tt: "#Bold Left-Click#! เพื่อกำหนดลัทธิศรัทธาที่มีผู้ชายเป็นผู้นำ, นักบวชเฉพาะผู้ชาย, การผิดศีลธรรมของผู้ชายยอมรับ, การผิดศีลธรรมของผู้หญิงจะถูกปฏิเสธหรือเป็นอาชญากรรม, กฎหมายของอาณาจักรเป็นของผู้ชายเท่านั้น, ขนบธรรมเนียมการทหารเป็นของผู้ชายเท่านั้น."
+ DI_ce_temporal_hof_button: "หัวหน้าศาสนาแบบทางโลก" # button label
+ DI_ce_temporal_hof_button_tt: "#Bold Left-Click#! เพื่อกำหนดผู้เล่นเป็นหัวหน้าทางโลกของศาสนา."
+ DI_present_laws_gender_equality: "ความเท่าเทียมทางเพศ"
+ DI_present_laws_gender_equality_TT: "ลัทธิศรัทธามีความเท่าเทียมทางเพศ, นักบวชเป็นเพศใดก็ได้, ทั้งสองเพศอาจถูกยอมรับหรือถูกแยกออก, กฎหมายของอาณาจักรเท่าเทียม, ขนบธรรมเนียมการทหารของวัฒนธรรมเท่าเทียม."
+ DI_present_laws_gender_inverse: "สลับบรรทัดฐานทางเพศ"
+ DI_present_laws_gender_inverse_TT: "สลับหลักคำสอนทางเพศของลัทธิ, สลับเพศของนักบวช, สลับหลักการผิดศีลธรรมทางเพศ, สลับกฎหมายทางเพศของอาณาจักรที่อาจนำไปสู่การปลดออก, ปลดหัวหน้าศาสนาผู้มีเพศตรงข้าม, สลับขนบธรรมเนียมการทหารของวัฒนธรรม."
+ DI_present_laws_gender_female_dominated: "ผู้หญิงมีอำนาจ"
+ DI_present_laws_gender_female_dominated_TT: "ลัทธิศรัทธาที่มีผู้หญิงเป็นผู้นำ, นักบวชเฉพาะผู้หญิง, การผิดศีลธรรมของผู้หญิงยอมรับ, การผิดศีลธรรมของผู้ชายจะถูกปฏิเสธเว้นแต่เป็นอาชญากรรม, กฎหมายของอาณาจักรเป็นของผู้หญิงเท่านั้น, ขนบธรรมเนียมการทหารเป็นของผู้หญิงเท่านั้น."
+ DI_present_laws_gender_male_dominated: "ผู้ชายมีอำนาจ"
+ DI_present_laws_gender_male_dominated_TT: "ลัทธิศรัทธาที่มีผู้ชายเป็นผู้นำ, นักบวชเฉพาะผู้ชาย, การผิดศีลธรรมของผู้ชายยอมรับ, การผิดศีลธรรมของผู้หญิงจะถูกปฏิเสธหรือเป็นอาชญากรรม, กฎหมายของอาณาจักรเป็นของผู้ชายเท่านั้น, ขนบธรรมเนียมการทหารเป็นของผู้ชายเท่านั้น."
+### Character Editor Skills ###
+ DI_skills: "ทักษะ" # window title
+ DI_skill_diplomacy_tt: "#P คลิกซ้าย:#! เพิ่ม #P [GetPlayer.MakeScope.Var('DI_diplomacy_value').GetValue|0] #![diplomacy|E] \n#N คลิกขวา:#! ลบ #N [GetPlayer.MakeScope.Var('DI_diplomacy_value').GetValue|0]#! [diplomacy|E]"
+ DI_skill_martial_tt: "#P คลิกซ้าย:#! เพิ่ม #P [GetPlayer.MakeScope.Var('DI_martial_value').GetValue|0] #![martial|E] \n#N คลิกขวา:#! ลบ #N [GetPlayer.MakeScope.Var('DI_martial_value').GetValue|0]#! [martial|E]"
+ DI_skill_stewardship_tt: "#P คลิกซ้าย:#! เพิ่ม #P [GetPlayer.MakeScope.Var('DI_stewardship_value').GetValue|0] #![stewardship|E] \n#N คลิกขวา:#! ลบ #N [GetPlayer.MakeScope.Var('DI_stewardship_value').GetValue|0]#! [stewardship|E]"
+ DI_skill_intrigue_tt: "#P คลิกซ้าย:#! เพิ่ม #P [GetPlayer.MakeScope.Var('DI_intrigue_value').GetValue|0] #![intrigue|E] \n#N คลิกขวา:#! ลบ #N [GetPlayer.MakeScope.Var('DI_intrigue_value').GetValue|0]#! [intrigue|E]"
+ DI_skill_learning_tt: "#P คลิกซ้าย:#! เพิ่ม #P [GetPlayer.MakeScope.Var('DI_learning_value').GetValue|0] #![learning|E] \n#N คลิกขวา:#! ลบ #N [GetPlayer.MakeScope.Var('DI_learning_value').GetValue|0]#! [learning|E]"
+ DI_skill_prowess_tt: "#P คลิกซ้าย:#! เพิ่ม #P [GetPlayer.MakeScope.Var('DI_prowess_value').GetValue|0] #![prowess|E] \n#N คลิกขวา:#! ลบ #N [GetPlayer.MakeScope.Var('DI_prowess_value').GetValue|0]#! [prowess|E]"
+### Perk Points ###
+ DI_perk_points: "สิทธิประโยชน์" # window title
+ DI_diplomacy_node: "การทูต"
+ DI_perk_point_diplomacy_tt: "#P คลิกซ้าย:#! เพิ่ม #P 1 #![diplomacy|E] [perk|E] \n#N คลิกขวา:#! ลบ #N 1#! [diplomacy|E] [perk|E]"
+ DI_martial_node: "การทหาร"
+ DI_perk_point_martial_tt: "#P คลิกซ้าย:#! เพิ่ม #P 1 #![martial|E] [perk|E] \n#N คลิกขวา:#! ลบ #N 1#! [martial|E] [perk|E]"
+ DI_stewardship_node: "การปกครอง"
+ DI_perk_point_stewardship_tt: "#P คลิกซ้าย:#! เพิ่ม #P 1 #![stewardship|E] [perk|E] \n#N คลิกขวา:#! ลบ #N 1#! [stewardship|E] [perk|E]"
+ DI_intrigue_node: "กลอุบาย"
+ DI_perk_point_intrigue_tt: "#P คลิกซ้าย:#! เพิ่ม #P 1 #![intrigue|E] [perk|E] \n#N คลิกขวา:#! ลบ #N 1#! [intrigue|E] [perk|E]"
+ DI_learning_node: "การเรียนรู้"
+ DI_perk_point_learning_tt: "#P คลิกซ้าย:#! เพิ่ม #P 1 #![learning|E] [perk|E] \n#N คลิกขวา:#! ลบ #N 1#! [learning|E] [perk|E]"
+ DI_perk_point_tt: "#P คลิกซ้าย:#! เพิ่ม #P 1 #! [Lifestyle.GetName|E] [perk|E] \n#N คลิกขวา:#! ลบ #N 1#! [Lifestyle.GetName|E] [perk|E]"
+ ### Modifiers ###
+ DI_modifiers: "ตัวปรับแต่ง" # window title
+ DI_modifier_maa_type: "เลือกประเภท MAA" # label
+ DI_clear_modifiers: "ลบตัวปรับแต่งทั้งหมด" # button label
+ DI_clear_modifiers_tt: "#difficulty_hard โปรดระวัง, การทำเช่นนี้จะลบตัวปรับแต่งทั้งหมดจากตัวละครที่ถูกปักหมุด."
+ DI_ce_tab_prestige: "เกียรติยศ" # category button label
+ DI_ce_tab_piety: "ศรัทธา" # category button label
+ DI_ce_tab_income: "รายได้" # category button label
+ DI_ce_tab_opinion: "ความคิดเห็น" # category button label
+ DI_ce_tab_health: "สุขภาพ" # category button label
+ DI_ce_tab_intrigue: "กลอุบาย" # category button label
+ DI_ce_tab_authority: "อำนาจ" # category button label
+ DI_ce_tab_provincial: "จังหวัด" # category button label
+ DI_ce_tab_governing: "การปกครอง" # category button label
+ DI_ce_tab_military: "การทหาร" # category button label
+ DI_ce_tab_learning: "การเรียนรู้" # category button label
+ DI_ce_tab_maa: "ทหาร" # category button label
+ DI_ce_tab_custom: "การปรับแต่งเอง" # category button label
+ DI_custom_modifiers: "การปรับแต่งเอง"
+ DI_prestige_modifiers: "เกียรติยศ"
+ DI_prestige_modifiers_tt: "รายการของตัวปรับแต่งเกียรติยศที่มีอยู่."
+ DI_piety_modifiers: "ศรัทธา"
+ DI_piety_modifiers_tt: "รายการของตัวปรับแต่งศรัทธาที่มีอยู่."
+ DI_income_modifiers: "รายได้"
+ DI_income_modifiers_tt: "รายการของตัวปรับแต่งรายได้ที่มีอยู่."
+ DI_opinion_modifiers: "ความคิดเห็น"
+ DI_opinion_modifiers_tt: "รายการของตัวปรับแต่งความคิดเห็นที่มีอยู่."
+ DI_health_modifiers: "สุขภาพ"
+ DI_health_modifiers_tt: "รายการของตัวปรับแต่งสุขภาพที่มีอยู่."
+ DI_intrigue_modifiers: "กลอุบาย"
+ DI_intrigue_modifiers_tt: "รายการของตัวปรับแต่งกลอุบายที่มีอยู่."
+ DI_authority_modifiers: "อำนาจ"
+ DI_authority_modifiers_tt: "รายการของตัวปรับแต่งอำนาจที่มีอยู่."
+ DI_provincial_modifiers: "จังหวัด"
+ DI_provincial_modifiers_tt: "รายการของตัวปรับแต่งจังหวัดที่มีอยู่."
+ DI_governing_modifiers: "การปกครอง"
+ DI_governing_modifiers_tt: "รายการของตัวปรับแต่งการปกครองที่มีอยู่."
+ DI_military_modifiers: "การทหาร"
+ DI_military_modifiers_tt: "รายการของตัวปรับแต่งการทหารที่มีอยู่."
+ DI_learning_modifiers: "การเรียนรู้"
+ DI_learning_modifiers_tt: "รายการของตัวปรับแต่งการเรียนรู้ที่มีอยู่."
+ DI_maa_modifiers: "ทหาร"
+ DI_modifier_neg: "ลบ"
+ DI_modifier_mult: "ตัวคูณ"
+ DI_modifier_increment: "เพิ่ม: [GetPlayer.MakeScope.Var('DI_misc_variables_story').Var('DI_modifier_increment_value').GetValue]"
+ DI_increment_broken: "#difficulty_hard ถูกปิดใช้งาน#! เนื่องจากปัญหากับหน้าต่างตัวละครในตัวเกมหลักที่ทำให้เกิดความหน่วงเมื่อมีตัวปรับแต่งจำนวนมาก. ใช้ตัวปรับแต่งเองแทน, หากคุณต้องการตัวปรับแต่งเองให้แจ้งให้ฉันทราบ."
+ DI_modifiers_desc: "\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อลบ#!\n#F ตัวปรับแต่งจะสะสม, ดังนั้นหากคุณคลิกหลายครั้งมันจะถูกใช้หลายครั้ง."
+ DI_modifier_add_remove: "\n#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อลบ#!"
+ # Custom Modifiers
+ DI_space_marines: "หน่วยสเปซมารีน"
+ DI_contraceptive: "การคุมกำเนิด"
+ DI_immune_to_schemes: "ต้านทานกลอุบาย"
+ DI_ultra_build: "การสร้างขั้นสูง"
+ DI_building_slots: "ช่องสร้างเพิ่มเติม"
+ DI_one_building_slot: "ช่องสร้างหนึ่งช่อง"
+ DI_domain_limit: "ขีดจำกัดดินแดนเพิ่มเติม"
+ DI_money_printer: "เครื่องพิมพ์เงิน"
+ DI_perma_health: "สุขภาพถาวร"
+ DI_trait_xp_boost: "เพิ่มประสบการณ์คุณสมบัติ"
+ DI_godlike_inheritance: "มรดกเช่นเทพ"
+ DI_true_rulers: "ผู้ปกครองที่แท้จริง"
+ DI_plague_doctor: "แพทย์โรคระบาด"
+ DI_imperial_march: "เพลงเดินขบวนจักรวรรดิ"
+ DI_dread_lord: "เจ้าชายแห่งความกลัว"
+ DI_lifestyle_mastery: "ความชำนาญในวิถีชีวิต"
+ DI_travel_speed: "ความเร็วในการเดินทาง"
+ DI_travel_safety: "ความปลอดภัยในการเดินทาง"
+ DI_legend_spread: "การแพร่กระจายของตำนาน"
+ DI_prestige_printer: "เครื่องพิมพ์เกียรติยศ"
+ DI_piety_printer: "เครื่องพิมพ์ศรัทธา"
+ DI_everybody_loves_me: "ทุกคนรักฉัน"
+ no_legitimacy_change: "ความชอบธรรม: ปิด"
+ ### Traits ###
+ DI_traits: "ลักษณะ" # window title
+ DI_trait_window_tooltip: "คุณสามารถคลิกขวาที่นี่เพื่อเปิดหน้าต่างที่ใหญ่ขึ้นและเคลื่อนย้ายได้"
+ DI_ce_tab_physical: "ลักษณะทางกาย" # category button label
+ DI_ce_tab_education: "การศึกษา" # category button label
+ DI_ce_tab_commander: "ผู้บัญชาการ" # category button label
+ DI_ce_tab_lifestyle: "วิถีชีวิต" # category button label
+ DI_ce_tab_personality: "บุคลิกภาพ" # category button label
+ DI_ce_tab_fame: "ชื่อเสียง" # category button label
+ DI_ce_tab_other: "อื่นๆ" # category button label
+ DI_ce_tab_tracked: "ติดตาม" # category button label
+ DI_ce_tab_pinned: "ปักหมุด" # category button label
+ DI_pinned_traits: "ลักษณะที่ปักหมุด"
+ DI_pinned_traits_tt: "รายการของลักษณะที่คุณได้ปักหมุดเพื่อการเข้าถึงที่ง่ายขึ้น"
+ DI_trait_button_tt: "คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อลบ"
+ DI_trait_xp_button_tt: "คลิกซ้ายเพื่อเพิ่มประสบการณ์ลักษณะ, คลิกขวาเพื่อลบประสบการณ์ลักษณะ"
+ DI_physical_traits: "ลักษณะทางกาย"
+ DI_physical_traits_tt: "หมวดหมู่ลักษณะทางกาย"
+ DI_education_traits: "ลักษณะการศึกษา"
+ DI_education_traits_tt: "หมวดหมู่ลักษณะการศึกษา"
+ DI_commander_traits: "ลักษณะผู้บัญชาการ"
+ DI_commander_traits_tt: "หมวดหมู่ลักษณะผู้บัญชาการ"
+ DI_lifestyle_traits: "ลักษณะวิถีชีวิต"
+ DI_lifestyle_traits_tt: "หมวดหมู่ลักษณะวิถีชีวิต"
+ DI_personality_traits: "ลักษณะบุคลิกภาพ"
+ DI_personality_traits_tt: "หมวดหมู่ลักษณะบุคลิกภาพ"
+ DI_health_traits: "ลักษณะสุขภาพ"
+ DI_health_traits_tt: "หมวดหมู่ลักษณะสุขภาพ"
+ DI_fame_traits: "ลักษณะชื่อเสียง"
+ DI_fame_traits_tt: "หมวดหมู่ลักษณะชื่อเสียง"
+ DI_other_traits: "ลักษณะอื่นๆ"
+ DI_other_traits_tt: "หมวดหมู่ลักษณะอื่นๆ"
+ DI_tracked_traits: "ลักษณะที่ติดตาม"
+ DI_tracked_traits_tt: "หมวดหมู่ลักษณะที่ติดตาม"
+ # Custom Traits
+ trait_nnn_challenger: "มหาเทพ"
+ trait_nnn_challenger_desc: ""
+ trait_nnn_challenger_character_desc: ""
+ trait_build_speed_cheat: "ช่างสร้างเทพ"
+ trait_build_speed_cheat_desc: ""
+ trait_build_speed_cheat_character_desc: ""
+ trait_stress_gain_remove: "ปราศจากความเครียด"
+ trait_stress_gain_remove_desc: ""
+ trait_stress_gain_remove_character_desc: ""
+ trait_tyranny_gain_remove: "ปราศจากเผด็จการ"
+ trait_tyranny_gain_remove_desc: ""
+ trait_tyranny_gain_remove_character_desc: ""
+ trait_boost_stats: "เพิ่มค่าสถานะ"
+ trait_boost_stats_desc: ""
+ trait_boost_stats_character_desc: ""
+ trait_100_stat_man: "ค่าสถานะ 100"
+ trait_100_stat_man_desc: "ค่าสถานะเป็น 100 ทั้งหมด"
+ trait_100_stat_man_character_desc: ""
+ trait_DI_immortal: "อมตะ"
+ trait_DI_immortal_desc: "หยุดกระบวนการแก่ชราและการตายจากอายุที่มากขึ้น"
+ trait_DI_immortal_character_desc: ""
+ ### Sexuality ###
+ DI_sexuality: "เพศวิถี" # window title
+ DI_sexuality_ho: "รักร่วมเพศ"
+ DI_sexuality_he: "รักต่างเพศ"
+ DI_sexuality_bi: "รักสองเพศ"
+ DI_sexuality_as: "ไม่สนใจเรื่องเพศ"
+ ### Culture ###
+ DI_culture_menu_title: "วัฒนธรรม" # window title
+ DI_change_to_my_culture: "เปลี่ยนเป็นวัฒนธรรมของฉัน"
+ DI_change_to_my_culture_tt: "เปลี่ยนวัฒนธรรมของตัวละครที่ติดหมุดทั้งหมดเป็นวัฒนธรรมของฉัน"
+ DI_change_counties_to_my_culture: "เปลี่ยนเขตการปกครองเป็นวัฒนธรรมของฉัน"
+ DI_change_counties_to_my_culture_tt: "เปลี่ยนเขตการปกครองของตัวละครที่ติดหมุดทั้งหมดเป็นวัฒนธรรมของคุณ และยังสามารถแปลงตัวละครที่ติดหมุดหากพวกเขามิใช่วัฒนธรรมของคุณ"
+ ### Religion ###
+ DI_religion_menu_title: "ศาสนา" # window title
+ DI_change_to_my_religion: "เปลี่ยนเป็นศาสนาของฉัน"
+ DI_change_to_my_religion_tt: "เปลี่ยนศาสนาของตัวละครที่ติดหมุดทั้งหมดเป็นศาสนาของฉัน"
+ DI_change_counties_to_my_religion: "เปลี่ยนเขตการปกครองเป็นศาสนาของฉัน"
+ DI_change_counties_to_my_religion_tt: "เปลี่ยนเขตการปกครองของตัวละครที่ติดหมุดทั้งหมดเป็นศาสนาของคุณ และยังสามารถแปลงตัวละครที่ติดหมุดหากพวกเขามิใช่ศาสนาของคุณ"
+ ### Pinned Characters ###
+ DI_pinned_characters: "ตัวละครที่ติดหมุด" # window title
+ DI_pinned_characters_no_match: "ไม่มีตัวละครที่ติดหมุด, คลิกขวาที่ตัวละครแล้วเลือกการโต้ตอบเพื่อทำการติดหมุด"
+ DI_pinned_char_var: "ติดหมุด"
+ DI_pinned_list_view: "มุมมองแบบรายการ"
+ DI_primary_pinned_character: "[GetPlayer.Custom('DI_primary_pinned_character')]"
+ DI_increment: "เพิ่ม/ลด: [GetPlayer.MakeScope.Var('DI_misc_variables_story').Var('DI_increment_value').GetValue]"
+ DI_increment_tt: "จำนวนที่จะเพิ่มหรือลด"
+ DI_age: "อายุ: [Character.GetAge|0]"
+ DI_kill_tt: "ฆ่าตัวละครนี้"
+ DI_vassalize_tt: "ทำให้ [Character.GetName] เป็นข้าราชบริพาร"
+ DI_STRESS_TOOLTIP: "#T [stress_level|E]: [Character.GetStressLevel|V]/[GetDefine('NCharacter', 'MAX_STRESS_LEVEL')|V]\n#![ConcatIfNeitherEmpty('#S ผลกระทบ:#!\n', Character.StressLevelEffect )]\n[AddTextIf(Not(StringIsEmpty(Character.StressLevelEffect)), '\n')]#S [stress|E]: [stress_i][Character.GetStress|V]/[GetMaxStress|V]#!\n[Character.StressProgressDesc]"
+ DI_pinned_age: "$game_concept_age$: [Character.GetAge|0]"
+ DI_PC_diplomacy: "$game_concept_diplomacy$: [Character.GetSkill('diplomacy')]"
+ DI_PC_martial: "$game_concept_martial$: [Character.GetSkill('martial')]"
+ DI_PC_stewardship: "$game_concept_stewardship$: [Character.GetSkill('stewardship')]"
+ DI_PC_intrigue: "$game_concept_intrigue$: [Character.GetSkill('intrigue')]"
+ DI_PC_learning: "$game_concept_learning$: [Character.GetSkill('learning')]"
+ DI_PC_prowess: "$game_concept_prowess$: [Character.GetSkill('prowess')]"
+ DI_PC_gold: "$game_concept_gold$: [Character.GetGold|0]"
+ DI_PC_prestige: "$game_concept_prestige$: [Character.GetPrestige|0]"
+ DI_PC_piety: "$game_concept_piety$: [Character.GetPiety|0]"
+ DI_PC_dprestige: "$game_concept_dynasty_prestige$: [Character.GetDynasty.GetPrestige|0]"
+ DI_PC_influence: "$game_concept_influence$: [Character.GetInfluence|0]"
+ DI_PC_provisions: "$game_concept_provisions$: [Character.GetDomicile.GetProvisions|0]"
+ DI_apply_skill: "ใช้" # button label
+ DI_execute_tt: "$game_concept_execute$ [GetPlayer.Custom('DI_primary_pinned_character')]. WIP"
+ DI_house_arrest_tt: "กักบริเวณ [GetPlayer.Custom('DI_primary_pinned_character')]. WIP"
+ DI_imprison_tt: "$game_concept_imprison$ [GetPlayer.Custom('DI_primary_pinned_character')]. WIP"
+ DI_pin_living: "ติดหมุดตัวละครที่ยังมีชีวิต" # button label
+ DI_pin_living_tt: "ติดหมุดตัวละครที่ยังมีชีวิตทั้งหมดในเกม"
+ DI_pin_pinned: "ติดหมุดตัวละครที่ติดหมุดแล้ว" # button label
+ DI_pin_pinned_tt: "ติดหมุดตัวละครทั้งหมดในรายการตัวละครที่ติดหมุดในเกม"
+ DI_PC_religion_tt: "คลิกที่นี่เพื่อเลือกศาสนาที่จะเปลี่ยนตัวละครนี้"
+ DI_PC_culture_tt: "คลิกที่นี่เพื่อเลือกวัฒนธรรมที่จะเปลี่ยนตัวละครนี้"
+ DI_PC_title_tt: "#Bold คลิกซ้าย#! เพื่อรับตำแหน่งนี้สำหรับ [GetPlayer.GetNameNoTooltip].\n#Bold คลิกขวา#! #difficulty_hard WIP#!"
+ DI_PC_title_options: "ตัวเลือกตำแหน่ง"
+ DI_PC_title_options_tt: "เลือกสิ่งที่จะเกิดขึ้นเมื่อคุณคลิกตำแหน่ง"
+ DI_unpin_tt: "ยกเลิกการติดหมุด [Character.GetNameNoTooltip]."
+ ### Title Manager ###
+ DI_title_manager: "ตัวจัดการตำแหน่ง" # window title
+ DI_title_manager_tt: "เปิดเมนูที่คุณสามารถจัดการตำแหน่งที่ติดหมุดได้หลายวิธี"
+ DI_tab_filter: "ตัวกรอง" # category button label
+ DI_tab_filter_tt: "วิธีต่างๆในการกรองตำแหน่งที่ติดหมุด"
+ DI_tab_quick_actions: "การกระทำด่วน" # category button label
+ DI_tab_quick_actions_tt: "การกระทำด่วนสำหรับตำแหน่งที่เลือกและติดหมุด"
+ DI_tab_conversion: "การเปลี่ยนแปลง" # category button label
+ DI_tab_conversion_tt: "เปลี่ยนแปลงศาสนาและวัฒนธรรมของตำแหน่งที่เลือก"
+ DI_tab_province_management: "ตัวจัดการจังหวัด" # category button label
+ DI_tab_province_management_tt: "จัดการจังหวัดของตำแหน่งที่เลือก"
+ DI_toggle_all_pinned_titles: "เปลี่ยนการเลือกทั้งหมด"
+ DI_toggle_all_pinned_titles_tt: "#Bold คลิกซ้าย#! เพื่อเปลี่ยนการเลือกของตำแหน่งที่ติดหมุดทั้งหมด"
+ DI_clear_all_pinned_titles: "ยกเลิกตำแหน่งที่ติดหมุดทั้งหมด"
+ DI_unpin_selected_titles: "ยกเลิกการติดหมุดตำแหน่งที่เลือก"
+ DI_pinned_characters_titles: "ติดหมุดตำแหน่งของตัวละครที่ติดหมุดทั้งหมด"
+ DI_sort_by_rank: "จัดเรียงตามอันดับ" # button label
+ DI_select_empires: "เลือกจักรวรรดิ" # button label
+ DI_select_empires_tt: "#bold คลิกซ้าย#! เพื่อเลือกจักรวรรดิทั้งหมด\n#bold คลิกขวา#! เพื่อยกเลิกการเลือกจักรวรรดิทั้งหมด"
+ DI_select_kingdoms: "เลือกอาณาจักร" # button label
+ DI_select_kingdoms_tt: "#bold คลิกซ้าย#! เพื่อเลือกอาณาจักรทั้งหมด\n#bold คลิกขวา#! เพื่อยกเลิกการเลือกอาณาจักรทั้งหมด"
+ DI_select_duchies: "เลือกดัชชี" # button label
+ DI_select_duchies_tt: "#bold คลิกซ้าย#! เพื่อเลือกดัชชีทั้งหมด\n#bold คลิกขวา#! เพื่อยกเลิกการเลือกดัชชีทั้งหมด"
+ DI_select_counties: "เลือกมณฑล" # button label
+ DI_select_counties_tt: "#bold คลิกซ้าย#! เพื่อเลือกมณฑลทั้งหมด\n#bold คลิกขวา#! เพื่อยกเลิกการเลือกมณฑลทั้งหมด"
+ DI_claim_titles: "อ้างสิทธิ์ตำแหน่ง" # button label
+ DI_take_titles: "ยึดตำแหน่ง" # button label
+ DI_destroy_titles: "ทำลายตำแหน่ง" # button label
+ DI_convert_religion: "เปลี่ยนศาสนา" # button label
+ DI_convert_culture: "เปลี่ยนวัฒนธรรม" # button label
+ DI_convert_dejure: "เปลี่ยนเดจูร์" # button label
+ DI_remove_holding: "ลบทรัพย์สิน" # button label
+ DI_remove_holding_tt: "#difficulty_hard คำเตือน!#! #emphasis #bold จะลบทรัพย์สินที่เลือกทั้งหมดยกเว้นเมืองหลวงของมณฑล#!#!"
+ DI_add_building_slot: "เพิ่มช่องสำหรับอาคาร" # button label
+ DI_add_building_slot_tt: "#difficulty_hard คำเตือน!#! #emphasis #bold ช่องสำหรับอาคารไม่สามารถลบได้เมื่อเพิ่มแล้ว!#!#!"
+ DI_set_holding_type: "ตั้งประเภททรัพย์สิน" # button label
+ DI_set_holding_type_tt: "#difficulty_hard คำเตือน!#! #emphasis #bold หากใช้หลังจากลบทรัพย์สินแล้วให้รอเกมทำงานสักพักก่อน!#!#!"
+ DI_remove_buildings: "ลบอาคาร" # button label
+ DI_max_building_upgrades: "อัพเกรดอาคารทั้งหมดสูงสุด" # button label
+ DI_generate_buildings: "ให้ AI สร้างอาคาร" # button label
+ DI_construct_building: "สร้างอาคาร" # button label
+ DI_select_holding_type: "ตัวจัดการอาคาร" # Window Title
+ ### Dejure Title ###
+ DI_dejure_title: "ตำแหน่งเดจูร์" # window title
+ ### Event Manager ###
+ DI_event_manager_title: "#difficulty_hard การพิสูจน์แนวคิด #!"
+ DI_event_manager_tt: "รักษาการ"
+ DI_em_example_event: "เหตุการณ์ตัวอย่าง"
+ DI_em_pregnancy: "การตั้งครรภ์"
+ DI_em_harm: "อันตราย"
+ ### Character Spawner ###
+ DI_char_spawner: "ตัวสร้างตัวละคร" # window title
+ DI_char_spawner_female: "หญิง" # checkbox label
+ DI_char_spawner_no_traits: "ไม่มีลักษณะ" # checkbox label
+ DI_char_spawner_100_stat_man: "ค่าสถานะ 100" # checkbox label
+ DI_char_spawner_good_traits: "ลักษณะที่ดี" # checkbox label
+ DI_char_spawner_immortal: "อมตะ" # checkbox label
+ DI_family_char_spawner: "ครอบครัว" # category tab label
+ DI_family_char_spawner_tt: ""
+ DI_councillors_char_spawner: "ที่ปรึกษา" # category tab label
+ DI_councillors_char_spawner_tt: ""
+ DI_court_char_spawner: "ราชสำนัก" # category tab label
+ DI_court_char_spawner_tt: ""
+ DI_char_spawner_age_increment_tt: "อายุของตัวละครที่สร้างขึ้น"
+ DI_char_spawner_count_increment_tt: "จำนวนตัวละครที่จะสร้าง"
+ DI_char_spawner_count_increment: "จำนวน: [GetPlayer.MakeScope.Var('DI_misc_variables_story').Var('DI_char_spawner_count_increment_value').GetValue]"
+ DI_char_spawner_age_increment: "อายุ: [GetPlayer.MakeScope.Var('DI_misc_variables_story').Var('DI_char_spawner_age_increment_value').GetValue]"
+ # buttons
+ DI_parent: "พ่อแม่" # button label
+ DI_parent_tt: "สร้างพ่อแม่ของตัวละครที่เลือก จะข้ามค่าเพิ่มอายุและสร้างตัวละครแค่ตัวเดียว พ่อแม่ต้องอายุมากกว่าลูก #difficulty_hard การแทนที่พ่อแม่อาจมีผลกระทบที่แปลกในครอบครัว ใช้ด้วยความระมัดระวัง."
+ DI_child: "ลูก" # button label
+ DI_child_tt: "สร้างลูกของตัวละครที่เลือก การสร้างหลายตัวในครั้งเดียวจะให้ลักษณะแฝด."
+ DI_sibling: "พี่น้อง" # button label
+ DI_sibling_tt: "สร้างพี่น้องของตัวละครที่เลือก การสร้างหลายตัวในครั้งเดียวจะให้ลักษณะแฝด."
+ DI_spouse: "คู่สมรส" # button label
+ DI_spouse_tt: "สร้างคู่สมรสให้กับตัวละครที่เลือก จะข้ามค่าเพิ่มอายุและสร้างตัวละครแค่ตัวเดียว."
+ DI_martial_councillor: "แม่ทัพ" # button label
+ DI_martial_councillor_tt: ""
+ DI_diplomacy_councillor: "ราชเลขานุการ" # button label
+ DI_diplomacy_councillor_tt: ""
+ DI_stewardship_councillor: "ผู้ดูแล" # button label
+ DI_stewardship_councillor_tt: ""
+ DI_intrigue_councillor: "ผู้นำการลอบสังหาร" # button label
+ DI_intrigue_councillor_tt: ""
+ DI_learning_councillor: "บาทหลวง" # button label
+ DI_learning_councillor_tt: ""
+ improved_stats_effect_TT: ""
+ DI_commander: "ผู้บัญชาการ" # button label
+ DI_commander_tt: ""
+ DI_knight: "อัศวิน" # button label
+ DI_knight_tt: ""
+ DI_normal_courtier: "ขุนนาง" # button label
+ DI_normal_courtier_tt: "ขุนนางที่มีกระท่อม"
+ DI_low_normal_courtier: "ขุนนางชั้นต่ำ" # button label
+ DI_low_normal_courtier_tt: "ขุนนางชั้นต่ำที่ไม่มีบ้าน"
+ DI_court_physician: "แพทย์ประจำราชสำนัก" # button label
+ DI_cultural_emissary: "ทูตทางวัฒนธรรม" # button label
+ DI_keeper_of_swans: "ผู้ดูแลหงส์" # button label
+ DI_chief_qadi: "หัวหน้าคนพิพากษา" # button label
+ DI_garuda: "ครุฑ" # button label
+ DI_court_gardener: "ชาวสวนในราชสำนัก" # button label
+ DI_chief_eunuch: "หัวหน้าขันที" # button label
+ DI_lady_in_waiting: "หญิงในรอ" # button label
+ DI_court_antiquarian: "นักโบราณคดีในราชสำนัก" # button label
+ DI_court_tutor: "ครูในศาล" # button label
+ DI_court_food_taster: "ชิมอาหารในราชสำนัก" # button label
+ DI_court_master_of_horse: "ผู้ดูแลม้า" # button label
+ DI_court_master_of_hunt: "ผู้ดูแลการล่าสัตว์" # button label
+ DI_court_royal_architect: "สถาปนิกราชวงศ์" # button label
+ DI_court_high_almoner: "ผู้ดูแลทรัพย์สินสูงสุด" # button label
+ DI_court_seneschal: "ขุนนางผู้ใหญ่" # button label
+ DI_court_cupbearer: "ผู้เสิร์ฟน้ำในราชสำนัก" # button label
+ DI_court_jester: "ตัวตลกในราชสำนัก" # button label
+ DI_court_poet: "กวีในศาล" # button label
+ DI_court_musician: "นักดนตรีในศาล" # button label
+ DI_court_bodyguard: "ผู้คุ้มกัน" # button label
+ DI_court_champion: "แชมป์เปี้ยน" # button label
+ DI_court_executioner: "ผู้ประหาร" # button label
+ DI_court_artificer: "ช่างฝีมือในราชสำนัก" # button label
+ ### Army Spawner ###
+ DI_army_spawner: "ตัวสร้างกองทัพ" # window title
+ DI_army_spawner_increment: "จำนวน: [GetPlayer.MakeScope.Var('DI_misc_variables_story').Var('DI_army_spawner_increment_value').GetValue]"
+ DI_basic_army_spawner: "พื้นฐาน"
+ DI_cultural_army_spawner: "วัฒนธรรม"
+ DI_other_army_spawner: "อื่น ๆ"
+ DI_retinue_army_spawner: "ทหารส่วนตัว"
+ DI_army_spawner_increment_tt: "จำนวนทหารที่จะสร้าง"
+ DI_warning_levy: "#difficulty_hard คำเตือน:#! การสร้างกองทัพพิเศษจะมีผลกระทบต่อแถบการบาลานซ์เลวีในหน้าจอทหาร เมื่อทหารเหล่านั้นตายจะไม่เติมเต็มใหม่ และอาจเป็นเรื่องยากที่จะทำให้สูญหายทั้งหมดเพื่อให้แถบนี้รีเซ็ตได้ พวกมันควรหายไปเมื่อพวกมันตาย"
+ ### Diplomacy Manager ###
+ DI_diplomacy: "ตัวจัดการการทูต" # window title
+ DI_select_character: "เลือกตัวละคร"
+ DI_primary_character: "ตัวละครหลัก"
+ DI_secondary_character: "ตัวละครรอง"
+ DI_tertiary_character: "ตัวละครที่สาม"
+ DI_tab_relations: "ความสัมพันธ์" # button label
+ DI_tab_treaties: "สนธิสัญญา" # button label
+ DI_tab_wars: "สงคราม" # button label
+ DI_tab_family: "ครอบครัว" # button label
+ DI_test: "ทดสอบ" # button label
+ DI_clear_primary: "ลบตัวละครหลัก" # button label
+ DI_clear_secondary: "ลบตัวละครรอง" # button label
+ DI_clear_tertiary: "ลบตัวละครที่สาม" # button label
+ # Relations 
+ DI_relations_tt: "#F คลิกซ้ายเพื่อเพิ่ม, คลิกขวาเพื่อเอาออก#!"
+ DI_placeholder_tt: "#difficulty_hard ขณะนี้ไม่ทำงาน / เป็นเพียงตัวแทน"
+ DI_reset_relations: "รีเซ็ตความสัมพันธ์" # button label
+ DI_reset_relations_tt: "รีเซ็ตความสัมพันธ์ระหว่าง [GetPlayer.Custom('DI_flip_primary_character')] และ [GetPlayer.Custom('DI_flip_secondary_character')]"
+ DI_good_relations: "ความสัมพันธ์ดี" # button label
+ DI_bad_relations: "ความสัมพันธ์แย่" # button label
+ DI_reset_pinned_relations: "รีเซ็ตความสัมพันธ์ที่ปักหมุด" # button label
+ DI_reset_pinned_relations_tt: "รีเซ็ตความสัมพันธ์ระหว่าง [GetPlayer.Custom('DI_flip_primary_character')] และตัวละครที่ปักหมุดทั้งหมด."
+ DI_reset_all_pinned_relations: "รีเซ็ตความสัมพันธ์ทั้งหมดที่ปักหมุด" # button label
+ DI_reset_all_pinned_relations_tt: "รีเซ็ตความสัมพันธ์ระหว่างตัวละครที่ปักหมุดทั้งหมด."
+ DI_apply_relations: "นำความสัมพันธ์ไปใช้" # button label
+ DI_apply_relations_tt: "นำความสัมพันธ์ระหว่าง [GetPlayer.Custom('DI_flip_primary_character')] และ [GetPlayer.Custom('DI_flip_secondary_character')] ไปใช้."
+ DI_apply_pinned_relations: "นำความสัมพันธ์ที่ปักหมุดไปใช้" # button label
+ DI_apply_pinned_relations_tt: "นำความสัมพันธ์ระหว่าง [GetPlayer.Custom('DI_flip_primary_character')] และตัวละครที่ปักหมุดทั้งหมดไปใช้."
+ DI_apply_all_pinned_relations: "นำความสัมพันธ์ทั้งหมดที่ปักหมุดไปใช้" # button label
+ DI_apply_all_pinned_relations_tt: "นำความสัมพันธ์ระหว่างตัวละครที่ปักหมุดทั้งหมดไปใช้."
+ # Treaties
+ DI_dip_treaty_button: "สนธิสัญญา" # button label
+ DI_dip_treaty_button_tt: "#Bold คลิกซ้าย#! เพื่อเซ็นสนธิสัญญาระหว่าง [GetPlayer.Custom('DI_flip_primary_character')] และ [GetPlayer.Custom('DI_flip_secondary_character')].\n#Bold คลิกขวา#! เพื่อยกเลิกสนธิสัญญาระหว่าง [GetPlayer.Custom('DI_flip_primary_character')] และ [GetPlayer.Custom('DI_flip_secondary_character')]."
+ DI_dip_alliance_button: "สร้างพันธมิตร" # button label
+ DI_dip_alliance_button_tt: "#Bold คลิกซ้าย#! เพื่อสร้างพันธมิตรระหว่าง [GetPlayer.Custom('DI_flip_primary_character')] และ [GetPlayer.Custom('DI_flip_secondary_character')].\n#Bold คลิกขวา#! เพื่อยกเลิกพันธมิตรระหว่าง [GetPlayer.Custom('DI_flip_primary_character')] และ [GetPlayer.Custom('DI_flip_secondary_character')]."
+ DI_dip_vassalize_button: "ทำให้เป็นขุนนาง" # button label
+ DI_dip_vassalize_button_tt: "#Bold คลิกซ้าย#! เพื่อทำให้ [GetPlayer.Custom('DI_flip_secondary_character')] เป็นขุนนางของ [GetPlayer.Custom('DI_flip_primary_character')].\nตัวละครที่สองต้องมีตำแหน่งหลักที่ต่ำกว่าตัวละครหลัก."
+ DI_dip_take_titles_button: "ยึดตำแหน่ง" # button label
+ DI_dip_take_titles_button_tt: "#Bold คลิกซ้าย#! เพื่อยึดตำแหน่งที่เลือกสำหรับ [GetPlayer.Custom('DI_flip_primary_character')].\n#Bold คลิกขวา#! เพื่อเลือกตำแหน่งในตัวจัดการตำแหน่ง."
+ DI_all_treaty: "สร้างสนธิสัญญาทั้งหมด" # button label
+ DI_all_treaty_tt: "ตัวละครที่ปักหมุดทุกตัวจะสร้างสนธิสัญญากับ [GetPlayer.Custom('DI_flip_primary_character')]."
+ DI_all_break_treaty: "ยกเลิกสนธิสัญญาทั้งหมด" # button label
+ DI_all_break_treaty_tt: "ตัวละครที่ปักหมุดทุกตัวจะยกเลิกสนธิสัญญากับ [GetPlayer.Custom('DI_flip_primary_character')]."
+ DI_every_pinned_treaty: "ทุกสนธิสัญญาที่ปักหมุด" # button label
+ DI_every_pinned_treaty_tt: "#Bold คลิกซ้าย#! เพื่อให้ตัวละครที่ปักหมุดทุกตัวสร้างสนธิสัญญากับตัวละครที่ปักหมุดทุกตัว.\n#Bold คลิกขวา#! เพื่อให้ตัวละครที่ปักหมุดทุกตัวยกเลิกสนธิสัญญากับตัวละครที่ปักหมุดทุกตัว."
+ DI_all_alliance: "สร้างพันธมิตรทั้งหมด" # button label
+ DI_all_alliance_tt: "ตัวละครที่ปักหมุดทุกตัวจะสร้างพันธมิตรกับ [GetPlayer.Custom('DI_flip_primary_character')]."
+ DI_all_break_alliance: "ยกเลิกพันธมิตรทั้งหมด" # button label
+ DI_all_break_alliance_tt: "ตัวละครที่ปักหมุดทุกตัวจะยกเลิกพันธมิตรกับ [GetPlayer.Custom('DI_flip_primary_character')]."
+ DI_every_pinned_alliance: "พันธมิตรทุกตัวที่ปักหมุด" # button label
+ DI_every_pinned_alliance_tt: "#Bold คลิกซ้าย#! เพื่อให้ตัวละครที่ปักหมุดทุกตัวสร้างพันธมิตรกับตัวละครที่ปักหมุดทุกตัว.\n#Bold คลิกขวา#! เพื่อให้ตัวละครที่ปักหมุดทุกตัวยกเลิกพันธมิตรกับตัวละครที่ปักหมุดทุกตัว."
+ DI_dip_perma: "ถาวร" # checkbox label
+ # Wars
+ DI_dip_war_button: "ประกาศสงคราม" # button label
+ DI_dip_war_button_tt: "#Bold คลิกซ้าย#! เพื่อประกาศสงครามระหว่าง [GetPlayer.Custom('DI_flip_primary_character')] และ [GetPlayer.Custom('DI_flip_secondary_character')] สำหรับเหตุผลสงครามที่เลือกและตำแหน่งที่เลือก (ถ้ามี). #difficulty_hard ตอนนี้สามารถประกาศสงครามในตำแหน่งได้สูงสุด ~20 ตำแหน่งในสงครามเดียว, ซึ่งจะเลือกตำแหน่งที่จัดอันดับสูงสุดจากรายการตำแหน่งที่เลือก (ตำแหน่งที่ถูกเลือกในช่องเช็คบ็อกซ์)#!"
+ DI_dip_casus_belli_button: "เลือกเหตุผลสงคราม" # button label
+ DI_dip_casus_belli_button_tt: "เลือกเหตุผลสงครามสำหรับสงคราม."
+ DI_casus_belli: "เหตุผลสงคราม" # window title
+ DI_county_conquest: "การพิชิตเขต" # button label
+ DI_county_conquest_tt: "เหตุผลสงครามการพิชิตเขต. #difficulty_hard นี่คือตัวเลือกสงครามสำหรับการดีบักในตอนนี้#!"
+ DI_dip_select_titles_button: "เลือกตำแหน่ง" # button label
+ DI_dip_select_titles_button_tt: "ตำแหน่งที่ปักหมุดที่เลือกด้วยช่องเช็คบ็อกซ์จะเป็นเป้าหมายของสงคราม. (ใช้ได้เฉพาะเมื่อประเภทเหตุผลสงครามเป็นการพิชิตตำแหน่ง.)"
+ DI_dip_end_war_button: "ยุติสงคราม" # button label
+ DI_dip_end_war_button_tt: "ยุติสงครามระหว่าง [GetPlayer.Custom('DI_flip_primary_character')] และ [GetPlayer.Custom('DI_flip_secondary_character')] ด้วยการสงบศึก."
+ DI_all_war: "ประกาศสงครามทั้งหมด" # button label
+ DI_all_end_war: "ยุติสงครามทั้งหมด" # button label
+ DI_every_pinned_war: "สงครามทุกตัวที่ปักหมุด" # button label
+ # Family
+ DI_dip_adoption_button: "รับเลี้ยง" # button label
+ DI_dip_adoption_button_tt: "[GetPlayer.Custom('DI_adopt_primary_character')][GetPlayer.Custom('DIAdoptAnd')][GetPlayer.Custom('DI_adopt_tertiary_character')][GetPlayer.Custom('DI_adopts')][GetPlayer.Custom('DI_adopt_secondary_character')]"
+ DI_dip_adoption_house_button: "เปลี่ยนวงตระกูล" # button label
+ DI_dip_adoption_house_button_tt: "[GetPlayer.Custom('DI_flip_primary_character')] รับ [GetPlayer.Custom('DI_flip_secondary_character')] เข้าวงตระกูลของพวกเขา[GetPlayer.Custom('DIAdoptOf')][GetPlayer.MakeScope.Var('DI_primary_character').Char.GetHouse.GetBaseName]."
+ DI_dip_impregnate_button: "ตั้งครรภ์" # button label
+ DI_dip_impregnate_button_tt: "[GetPlayer.Custom('DI_flip_primary_character')] และ [GetPlayer.Custom('DI_flip_tertiary_character')] เริ่มตั้งครรภ์. ใช้ได้กับคู่ชาย / หญิงเท่านั้น."
+ DI_dip_preg_gender_male_button: "เพศของทารกเป็นชาย" # button
+ DI_dip_preg_gender_male_button_tt: "ทารกในครรภ์ของ [GetPlayer.Custom('DI_flip_primary_character')] จะเป็นชาย."
+ DI_dip_preg_gender_female_button: "เพศของทารกเป็นหญิง" # button
+ DI_dip_preg_gender_female_button_tt: "ทารกในครรภ์ของ [GetPlayer.Custom('DI_flip_primary_character')] จะเป็นหญิง."
+ DI_dip_marry_button: "แต่งงาน" # button label
+ DI_dip_marry_button_tt: "[GetPlayer.Custom('DI_flip_primary_character')] และ [GetPlayer.Custom('DI_flip_tertiary_character')] แต่งงาน."
+ DI_dip_marry_matrilineal_button: "แต่งงานโดยสืบทอดผ่านทางสายมารดา" # button label
+ DI_dip_marry_matrilineal_button_tt: "[GetPlayer.Custom('DI_flip_primary_character')] และ [GetPlayer.Custom('DI_flip_tertiary_character')] แต่งงานโดยสิบทอดผ่านทางสายมารดา."
+ DI_dip_divorce_button: "หย่า" # button label
+ DI_dip_divorce_button_tt: "[GetPlayer.Custom('DI_flip_primary_character')] และ [GetPlayer.Custom('DI_flip_tertiary_character')] หย่า."
+ DI_dip_make_siblings_button: "ทำให้เป็นพี่น้อง" # button label
+ DI_dip_make_siblings_button_tt: "[GetPlayer.Custom('DI_flip_secondary_character')] ถูกรับเลี้ยงโดยพ่อแม่ของ [GetPlayer.Custom('DI_flip_primary_character')]."
+ ### Artifact Creator ###
+ DI_artifact_creator: "ผู้สร้างสิ่งประดิษฐ์" # window title
+ DI_artifact_list: "รายการของสิ่งประดิษฐ์"
+ DI_artifact_type: "ประเภทของสิ่งประดิษฐ์"
+ DI_artifact_quality: "คุณภาพของสิ่งประดิษฐ์"
+ DI_artifact_create: "สร้างสิ่งประดิษฐ์"
+ # artifact list
+ DI_artifact_list_title: "สิ่งประดิษฐ์"
+ DI_tt_take_artifact: "รับสิ่งประดิษฐ์"
+ DI_destroy_artifact_tt: "ทำลายสิ่งประดิษฐ์"
+ # artifact types and qualities
+ DI_artifact_weapon: "อาวุธ"
+ DI_artifact_armor: "เกราะ"
+ DI_artifact_regalia: "เครื่องราชกกุธภัณฑ์"
+ DI_artifact_trinket: "เครื่องประดับ"
+ DI_artifact_throne: "บัลลังก์"
+ DI_artifact_pedestal: "แท่นรอง"
+ DI_artifact_furniture: "เฟอร์นิเจอร์"
+ DI_artifact_ornament: "เครื่องประดับตกแต่ง"
+ DI_artifact_armor_mail: "เกราะโซ่"
+ DI_artifact_armor_brigandine: "เกราะบีกันดิน"
+ DI_artifact_armor_laminar: "เกราะลามินาร์"
+ DI_artifact_armor_lamellar: "เกราะลามิลเลอร์"
+ DI_artifact_armor_scale: "เกราะเกล็ด"
+ DI_artifact_armor_plate: "เกราะแผ่น"
+ artifact_small_box: "กล่องขนาดเล็ก"
+ artifact_medium_box: "กล่องขนาดกลาง"
+ artifact_divan: "โซฟา"
+ artifact_table: "โต๊ะ"
+ artifact_small_shield: "โล่กำแพงขนาดเล็ก"
+ artifact_large_shield: "โล่กำแพงขนาดใหญ่"
+ DI_artifact_common: "ทั่วไป"
+ DI_artifact_masterwork: "ชิ้นงานชั้นเยี่ยม"
+ DI_artifact_famed: "มีชื่อเสียง"
+ DI_artifact_illustrious: "มีเกียรติ"
+ ### Culture Editor ###
+ # window title is CULTURE_WINDOW_CULTURE
+ DI_ce_convert_counties: "แปลงมณฑล"
+ DI_ce_convert_counties_tt: "แปลงมณฑลทั้งหมดของตัวละคร 'วัฒนธรรมที่จะแก้ไข' เป็นวัฒนธรรมของตัวละคร 'วัฒนธรรมที่คัดลอก'."
+ DI_ce_convert_all_pinned: "แปลงทั้งหมดที่ปักหมุด"
+ DI_ce_convert_all_pinned_tt: "แปลงตัวละครทั้งหมดที่ปักหมุดเป็นวัฒนธรรมของตัวละคร 'วัฒนธรรมที่คัดลอก'."
+ DI_ce_convert_copy: "แปลงที่เลือก"
+ DI_ce_convert_copy_tt: "แปลงตัวละคร 'วัฒนธรรมที่จะแก้ไข' เป็นวัฒนธรรมของตัวละคร 'วัฒนธรรมที่คัดลอก'."
+ DI_ce_convert_to_player: "แปลงเป็นผู้เล่น"
+ DI_ce_convert_to_player_tt: "แปลงตัวละครทั้งหมดที่ปักหมุดเป็นวัฒนธรรมของตัวละครผู้เล่น."
+ DI_ce_convert_all_pinned_counties: "แปลงมณฑลทั้งหมดที่ปักหมุด"
+ DI_ce_convert_all_pinned_counties_tt: "แปลงมณฑลทั้งหมดของตัวละครที่ปักหมุดเป็นวัฒนธรรมของตัวละคร 'วัฒนธรรมที่คัดลอก'."
+ DI_ce_convert_to_player_counties: "แปลงมณฑลเป็นผู้เล่น"
+ DI_ce_convert_to_player_counties_tt: "แปลงมณฑลทั้งหมดของตัวละครที่ปักหมุดเป็นวัฒนธรรมของตัวละครผู้เล่น."
+ DI_ce_convert_to_own_counties: "แปลงมณฑลเป็นของตนเอง"
+ DI_ce_convert_to_own_counties_tt: "แปลงมณฑลทั้งหมดของตัวละครที่ปักหมุดเป็นวัฒนธรรมของพวกเขาเอง."
+ DI_innovation_selection_tab: "นวัตกรรม"
+ DI_culture_convert_tab: "แปลง"
+ DI_culture_convert: "แปลงเป็น [Culture.GetNameNoTooltip]"
+ DI_CLEAR_ALL_TRADITIONS: "ลบทุกประเพณี"
+ DI_COPY_TRADITIONS_LABEL: "คัดลอกประเพณี"
+ DI_copy_traditions_tt: "คัดลอกประเพณีจากวัฒนธรรมหนึ่งไปยังอีกวัฒนธรรมหนึ่ง. #difficulty_hard ขณะนี้ไม่สามารถทำงานได้ / เป็นเพียงตัวแทน"
+ DI_edit_tradition: "แก้ไขประเพณี"
+ DI_all_traditions: "ทุกประเพณี"
+ DI_culture_convert_characters: "วัฒนธรรมตัวละคร"
+ DI_culture_convert_counties: "มณฑล"
+ DI_culture_to_edit: "วัฒนธรรมที่จะแก้ไข"
+ DI_culture_to_copy: "วัฒนธรรมที่คัดลอก"
+ DI_people: "ผู้คน"
+ DI_convert_every_courtier_culture: "ทุกขุนนาง"
+ DI_convert_every_courtier_culture_tt: "แปลงทุกขุนนางของตัวละคร 'วัฒนธรรมที่จะแก้ไข' เป็นวัฒนธรรมของตัวละคร 'วัฒนธรรมที่คัดลอก'."
+ DI_convert_every_vassal_culture: "ทุกบรรดาศักดิ์"
+ DI_convert_every_vassal_culture_tt: "แปลงทุกบรรดาศักดิ์ของตัวละคร 'วัฒนธรรมที่จะแก้ไข' เป็นวัฒนธรรมของตัวละคร 'วัฒนธรรมที่คัดลอก'."
+ DI_counties: "มณฑล"
+ DI_realm: "อาณาจักร"
+ DI_convert_realm_culture: "แปลงวัฒนธรรมอาณาจักร"
+ DI_convert_realm_culture_tt: "แปลงมณฑลทั้งหมดและตัวละครของอาณาจักรของตัวละคร 'วัฒนธรรมที่จะแก้ไข' เป็นวัฒนธรรมของตัวละคร 'วัฒนธรรมที่คัดลอก'."
+ DI_convert_all_pinned_realm_culture: "แปลงวัฒนธรรมอาณาจักรทั้งหมดที่ปักหมุด"
+ DI_convert_all_pinned_realm_culture_tt: "แปลงมณฑลทั้งหมดและตัวละครของอาณาจักรของตัวละครที่ปักหมุดเป็นวัฒนธรรมของตัวละคร 'วัฒนธรรมที่คัดลอก'."
+ DI_convert_all_pinned_to_player_culture: "แปลงอาณาจักรทั้งหมดเป็นผู้เล่น"
+ DI_convert_all_pinned_to_player_culture_tt: "แปลงมณฑลทั้งหมดและตัวละครของอาณาจักรของตัวละครที่ปักหมุดเป็นวัฒนธรรมของตัวละครผู้เล่น."
+ DI_quick_convert_player_realm_culture: "แปลงอาณาจักรผู้เล่นด่วน"
+ DI_quick_convert_player_realm_culture_tt: "แปลงมณฑลทั้งหมดและตัวละครของอาณาจักรของตัวละครผู้เล่นเป็นวัฒนธรรมของตัวละครผู้เล่น."
+ DI_sub_realm: "อาณาจักรย่อย"
+ DI_convert_sub_realm_culture: "แปลงวัฒนธรรมอาณาจักรย่อย"
+ DI_convert_sub_realm_culture_tt: "แปลงมณฑลทั้งหมดและตัวละครของอาณาจักรย่อยของตัวละคร 'วัฒนธรรมที่จะแก้ไข' เป็นวัฒนธรรมของตัวละคร 'วัฒนธรรมที่คัดลอก'."
+ DI_convert_all_pinned_sub_realm_culture: "แปลงวัฒนธรรมอาณาจักรย่อยทั้งหมดที่ปักหมุด"
+ DI_convert_all_pinned_sub_realm_culture_tt: "แปลงมณฑลทั้งหมดและตัวละครของอาณาจักรย่อยของตัวละครที่ปักหมุดเป็นวัฒนธรรมของตัวละคร 'วัฒนธรรมที่คัดลอก'."
+ DI_convert_all_pinned_to_player_sub_realm_culture: "แปลงอาณาจักรย่อยทั้งหมดเป็นผู้เล่น"
+ DI_convert_all_pinned_to_player_sub_realm_culture_tt: "แปลงมณฑลทั้งหมดและตัวละครของอาณาจักรย่อยของตัวละครที่ปักหมุดเป็นวัฒนธรรมของตัวละครผู้เล่น."
+ DI_quick_convert_player_sub_realm_culture: "แปลงอาณาจักรย่อยผู้เล่นด่วน"
+ DI_quick_convert_player_sub_realm_culture_tt: "แปลงมณฑลทั้งหมดและตัวละครของอาณาจักรย่อยของตัวละครผู้เล่นเป็นวัฒนธรรมของตัวละครผู้เล่น."
+ ### Culture Pillars ###
+ DI_martial_custom_window_title: "ธรรมเนียมการทหาร" # window title
+ DI_ethos_window_title: "จริยธรรม" # window title
+ DI_heritage_window_title: "มรดก" # window title
+ DI_language_window_title: "ภาษา" # window title
+ ### INTERACTIONS ###
+ interaction_category_cheat_menu: "การแทรกแซงจากพระเจ้า" # หมวดหมู่
+ DI_open_cheat_menu: "เปิดใช้งานการแทรกแซงจากพระเจ้า"
+ DI_close_cheat_menu: "ปิดใช้งานการแทรกแซงจากพระเจ้า"
+ DI_cheat_menu_desc: "เปิดหรือปิดตัวเลือกการใช้งานสูตรโกง, จำเป็นสำหรับการปักหมุดตัวละคร"
+ DI_pin_character_interaction: "ปักหมุดตัวละครเพื่อแก้ไข"
+ DI_pin_character: "ปักหมุดตัวละคร"
+ DI_pin_vassals: "ปักหมุดข้าราชบริพารทั้งหมด"
+ DI_pin_courtiers: "ปักหมุดข้าราชบริพารทั้งหมด"
+ DI_pin_councillors: "ปักหมุดสมาชิกสภาทั้งหมด"
+ DI_pin_house: "ปักหมุดสมาชิกทุกคนในวงศ์ตระกูล"
+ DI_pin_dynasty: "ปักหมุดสมาชิกทุกคนในราชวงศ์"
+ DI_pin_lovers: "ปักหมุดคู่รัก / คู่ชีวิตทั้งหมด"
+ DI_pin_title_interaction: "ปักหมุดตำแหน่งของบรรดาศักดิ์เพื่อแก้ไข"
+ DI_pin_character_titles: "ปักหมุดตำแหน่งของตัวละครทั้งหมด"
+ DI_pin_vassal_titles: "ปักหมุดตำแหน่งของข้าราชบริพารทั้งหมด"
+ DI_pin_sub_realm_titles: "ปักหมุดตำแหน่งของอาณาจักรย่อยทั้งหมด"
+ DI_pin_realm_titles: "ปักหมุดตำแหน่งของอาณาจักรทั้งหมด"
+ DI_change_character_interaction: "เปลี่ยนตัวละคร"
+ DI_change_character_desc: "เปลี่ยนไปเล่นตัวละครนี้"
+ DI_change_character_name_interaction: "เปลี่ยนชื่อ"
+ DI_change_character_name_desc: "เปิดเหตุการณ์ที่ช่วยให้คุณเปลี่ยนชื่อของตัวละคร"
+ DI_change_religion_interaction: "เปลี่ยนศาสนา"
+ DI_change_religion_desc: "เปลี่ยนตัวละครไปเป็นศาสนาของคุณ"
+ DI_change_culture_interaction: "เปลี่ยนวัฒนธรรม"
+ DI_change_culture_desc: "เปลี่ยนตัวละครไปเป็นวัฒนธรรมของคุณ"
+ DI_change_dynasty_interaction: "เปลี่ยนราชวงศ์"
+ DI_change_dynasty_desc: "เปลี่ยนราชวงศ์ของตัวละครเป็นของคุณ"
+ DI_char_modify_vassal_contract_interaction: "แก้ไขสัญญาของข้าราชบริพาร"
+ DI_char_modify_vassal_contract_inter_desc: "แก้ไขสัญญาของข้าราชบริพารโดยไม่มีข้อจำกัด"
+ DI_modify_vassal_mod_vassal_contract_interaction: "แก้ไขสัญญาของข้าราชบริพาร"
+ DI_modify_vassal_mod_vassal_contract_desc: "แก้ไขสัญญาของข้าราชบริพารกับเจ้านายโดยไม่มีข้อจำกัด"
+ DI_arrange_marriage_interaction: "จัดการแต่งงาน"
+ DI_arrange_marriage_desc: "เปิดเมนูที่คุณสามารถจัดการแต่งงานกับตัวละครได้"
+ DI_learn_language_interaction: "เรียนรู้ภาษา"
+ DI_divorce_character_interaction: "หย่ากับตัวละคร"
+ DI_divorce_character_desc: "บังคับหย่ากับตัวละคร"
+ DI_designate_heir_interaction: "กำหนดผู้สืบทอด"
+ DI_designate_heir_desc: "ตั้งตัวละครเป็นผู้สืบทอดของคุณ"
+ DI_adopt_male_interaction: "รับเลี้ยง"
+ DI_adopt_female_interaction: "รับเลี้ยง"
+ DI_adopt: "รับเลี้ยงตัวละครเป็นลูกของคุณ ซึ่งยังเปลี่ยนตระกูลของพวกเขาเป็นของคุณ"
+ DI_disown_interaction: "ถอนตัวละครออกจากสายเลือด"
+ DI_disown_desc: "ทำให้ตัวละครเป็นชนชั้นต่ำ, ถอนตัวออกจากสายสืบทอด"
+ DI_murder_interaction: "ฆ่าตัวละคร"
+ DI_murder_desc: "ฆ่าตัวละคร"
+ DI_imprison_interaction: "ขังตัวละคร"
+ DI_imprison_desc: "ขังตัวละคร"
+ DI_claim_title_interaction: "เรียกร้องยศฐาบรรดาศักดิ์"
+ DI_claim_title_desc: "เปิดเมนูให้คุณเลือกบรรดาศักดิ์ที่ต้องการเรียกร้อง"
+ DI_remove_claims_on_player_interaction: "ลบการเรียกร้องจากฉัน"
+ DI_remove_claims_on_player_desc: "ลบการเรียกร้องทั้งหมดที่ตัวละครมีต่อตัวละครผู้เล่น"
+ DI_remove_all_claims_interaction: "ลบการเรียกร้องทั้งหมด"
+ DI_remove_all_claims_desc: "ลบการเรียกร้องทั้งหมดที่ตัวละครมีต่อทุกตำแหน่งที่สามารถลบได้"
+ DI_revoke_title_interaction: "ริบตำแหน่ง"
+ DI_revoke_title_desc: "เปิดเมนูที่ให้คุณเลือกตำแหน่งที่จะริบ"
+ DI_vassalize_interaction: "ทำให้เป็นข้าราชบริพาร"
+ DI_vassalize_desc: "ทำให้ตัวละครเป็นข้าราชบริพาร"
+ DI_add_to_court_interaction: "[GetPlayer.Custom('DI_add_to_court')]"
+ DI_add_to_court_0: "เพิ่มเข้าสู่ราชสำนัก"
+ DI_add_to_court_1: "เพิ่มเข้าสู่ค่าย"
+ DI_add_to_court_desc: "บังคับให้ตัวละครเข้าร่วมราชสำนักของคุณเป็นข้าราชบริพาร"
+ DI_add_concubine_interaction: "เพิ่มเป็นนางบำเรอ"
+ DI_add_concubine_desc: "ทำให้ตัวละครเป็นนางบำเรอของตัวละครผู้เล่น"
+ DI_impregnate_interaction: "ทำให้ท้อง"
+ DI_impregnate_cheat_desc: "ถ้าใช้กับตัวละครผู้ชายทำให้ตัวละครผู้หญิงท้อง, ถ้าใช้กับตัวละครผู้หญิงทำให้ตัวละครผู้ชายท้อง"
+ DI_impregnate_one_child: "ท้องหนึ่งคน"
+ DI_impregnate_twins: "ฝาแฝด"
+ DI_impregnate_triplets: "สามแฝด"
+ DI_impregnate_by_spouse_1: "ทำให้ท้องโดยคู่สมรส, หนึ่งคน"
+ DI_impregnate_by_spouse_2: "ทำให้ท้องโดยคู่สมรส, ฝาแฝด"
+ DI_impregnate_by_spouse_3: "ทำให้ท้องโดยคู่สมรส, สามแฝด"
+ DI_sleep_with_character: "นอนกับ"
+ DI_add_hook_interaction: "เพิ่มหนี้บุญคุณ"
+ DI_add_loyalty_hook_interaction: "หนี้บุญคุณของความภักดี"
+ DI_add_hook_desc: "ให้ตัวละครผู้เล่นมีหนี้บุญคุณของความภักดีกับตัวละคร"
+ DI_excommunicate_interaction: "ขับออกจากศาสนา"
+ DI_excommunicate_desc: "บังคับให้ตัวละครถูกขับออกจากศาสนา"
+ DI_remove_excommunication_interaction: "ลบการขับออกจากศาสนา"
+ DI_remove_excommunication_desc: "ลบการขับออกจากศาสนาจากตัวละคร"
+ DI_commit_suicide_interaction: "ฆ่าตัวตาย"
+ DI_commit_suicide_desc: "ตัวละครผู้เล่นฆ่าตัวตาย"
+ DI_take_title_interaction: "ยึดตำแหน่ง"
+ DI_take_title_desc: "เลือกจากรายชื่อตำแหน่งของตัวละครที่จะยึด"
+ DI_change_every_county: "เปลี่ยนทุกมณฑล"
+ DI_change_every_county_control: "ควบคุมสูงสุด"
+ DI_change_every_county_development: "พัฒนาเต็มที่"
+ DI_change_religion_every_county: "เปลี่ยนศาสนาของทุกมณฑลในอาณาจักรย่อย"
+ DI_change_culture_every_county: "เปลี่ยนวัฒนธรรมของทุกมณฑลในอาณาจักรย่อย"
+ DI_change_opinion_interaction: "เปลี่ยนความเห็น"
+ DI_change_character_weight_interaction: "เปลี่ยนน้ำหนัก"
+ DI_set_relation_interaction: "ทำให้ #P เป็นเพื่อน#!/#N ศัตรู#!/#color_yellow คู่รัก#!"
+ DI_set_potential_friend: "#P ตั้ง #EMP #P เพื่อนที่อาจเป็นได้#!#!"
+ DI_remove_potential_friend: "#N ลบ #EMP #P เพื่อนที่อาจเป็นได้#!#!"
+ DI_set_potential_rival: "#P ตั้ง #EMP #N ศัตรูที่อาจเป็นได้#!#!"
+ DI_remove_potential_rival: "#N ลบ #EMP #N ศัตรูที่อาจเป็นได้#!#!"
+ DI_set_potential_lover: "#P ตั้ง #EMP #color_yellow คู่รักที่อาจเป็นได้"
+ DI_remove_potential_lover: "#N ลบ #EMP #color_yellow คู่รักที่อาจเป็นได้"
+ DI_set_friend: "#P ตั้ง #EMP #P เพื่อน
+ DI_remove_friend: "#N ลบ #EMP #P เพื่อน#!"
+ DI_set_rival: "#P ตั้ง #EMP #N คู่ปรับ#!"
+ DI_remove_rival: "#N ลบ #EMP #N คู่ปรับ#!"
+ DI_set_lover: "#P ตั้ง #EMP #color_yellow คนรัก#!"
+ DI_remove_lover: "#N ลบ #EMP #color_yellow คนรัก#!"
+ DI_set_best_friend: "#P ตั้ง #EMP #P เพื่อนสนิท#!"
+ DI_remove_best_friend: "#N ลบ #EMP #P เพื่อนสนิท#!"
+ DI_set_nemesis: "#P ตั้ง #EMP #difficulty_hard ศัตรูคู่อาฆาต#!"
+ DI_remove_nemesis: "#N ลบ #EMP #difficulty_hard ศัตรูคู่อาฆาต#!"
+ DI_set_soulmate: "#P ตั้ง #EMP #difficulty_medium คู่แท้#!"
+ DI_remove_soulmate: "#N ลบ #EMP #difficulty_medium คู่แท้#!"
+ DI_set_bully: "#P ตั้ง #EMP #N คนพาล#!"
+ DI_remove_bully: "#N ลบ #EMP #N คนพาล#!"
+ DI_set_victim: "#P ตั้ง #EMP #P เหยื่อ#!"
+ DI_remove_victim: "#N ลบ #EMP #P เหยื่อ#!"
+ DI_remove_child_interaction: "ลบลูก"
+ DI_remove_child_desc: "ลบตัวละครนี้ออกจากสถานะลูกของคุณ"
+ DI_toggle_menu_button_interaction: "สลับการแสดงปุ่มเมนู"
+ DI_change_government: "เปลี่ยนรูปแบบการปกครอง"
+ DI_change_government_desc: "เปิดเมนูสำหรับเปลี่ยนรูปแบบการปกครองของตัวละครเป็นฟิวดัล เผ่า หรือกลุ่มเผ่า"
+ DI_change_government_feudal: "ฟิวดัล - จำกัด"
+ DI_change_government_clan: "กลุ่มเผ่า - จำกัด"
+ DI_change_government_tribal: "เผ่า - จำกัด"
+ DI_change_government_feudal_full: "ฟิวดัล - เต็มรูปแบบ"
+ DI_change_government_clan_full: "กลุ่มเผ่า - เต็มรูปแบบ"
+ DI_change_government_tribal_full: "เผ่า - เต็มรูปแบบ"
+ DI_change_government_administrative: "การบริหาร"
+ DI_change_succession: "เปลี่ยนรูปแบบการสืบทอด"
+ DI_change_succession_desc: "เปิดเมนูสำหรับเปลี่ยนรูปแบบการสืบทอดของตัวละครเป็นลูกคนโตหรือลูกคนสุดท้อง"
+ DI_change_succession_single: "ลูกคนโต"
+ DI_change_succession_single_youngest: "ลูกคนสุดท้อง"
+ DI_contraceptive_interaction: "การคุมกำเนิด"
+ DI_contraceptive_desc: "ทำให้ตัวละครนี้ไม่สามารถมีลูกได้"
+ DI_end_pregnancy_interaction: "ยุติการตั้งครรภ์"
+ DI_end_pregnancy_desc: "ยุติการตั้งครรภ์ของตัวละคร"
+ DI_add_secrets_interaction: "เพิ่มความลับ"
+ DI_add_secrets_desc: "เปิดเมนูเพื่อเพิ่มความลับให้กับตัวละคร"
+ DI_remove_secrets_interaction: "ลบความลับ"
+ DI_remove_secrets_desc: "เปิดเมนูเพื่อลบความลับของตัวละคร"
+ DI_reveal_secrets_interaction: "เปิดเผยความลับ"
+ DI_reveal_secrets_desc: "เปิดเมนูเพื่อเปิดเผยความลับเกี่ยวกับตัวละคร"
+ DI_start_diarchy_interaction: "เริ่มระบอบสองผู้นำ"
+ DI_start_diarchy_desc: "เริ่มระบอบสองผู้นำสำหรับตัวละคร"
+ DI_start_diarchy_player_desc: "เริ่มระบอบสองผู้นำโดยผู้เล่นเป็นผู้สำเร็จราชการ"
+ DI_start_diarchy_npc_desc: "เริ่มระบอบสองผู้นำโดย NPC เป็นผู้สำเร็จราชการ"
+ DI_end_diarchy_interaction: "ยุติระบอบสองผู้นำ"
+ DI_end_diarchy_desc: "ยุติระบอบสองผู้นำสำหรับตัวละคร"
+ DI_swing_scales_interaction: "ปรับสมดุลอำนาจ"
+ DI_swing_scales_interaction_desc: "เลือกระดับอำนาจ 0, 50, หรือ 100 สำหรับระบอบสองผู้นำ"
+ swing_scales_0: "0 อำนาจ"
+ swing_scales_50: "50 อำนาจ"
+ swing_scales_100: "100 อำนาจ"
+ DI_white_peace_all_wars: "ยุติสงครามทั้งหมดด้วยสันติภาพ"
+ DI_lose_all_wars: "แพ้สงครามทั้งหมด"
+ DI_win_all_wars: "ชนะสงครามทั้งหมด"
+ DI_player_win_wars: "แพ้สงครามกับผู้เล่น"
+ DI_white_peace_player: "ยุติสงครามกับผู้เล่นด้วยสันติภาพ"
+ DI_vassals_white_peace: "ยุติสงครามของขุนนางด้วยสันติภาพ"
+ DI_take_all_titles_interaction: "ยึดตำแหน่งทั้งหมด"
+ DI_take_all_titles_desc: "ยึดตำแหน่งในอาณาจักรย่อยทั้งหมด รวมถึงตำแหน่งและขุนนางของตัวละครที่เลือก เฉพาะตำแหน่งที่มีระดับเท่ากับหรือสูงกว่าหมู่บ้านเท่านั้น"
+ DI_end_wars_interaction: "ยุติสงคราม"
+ DI_end_wars_desc: "ตัวเลือกหลากหลายสำหรับการยุติสงครามของตัวละคร รวมถึงสงครามกับผู้เล่นและสงครามกับขุนนางของผู้เล่น"
+ DI_take_sub_realm_titles: "ตำแหน่งในอาณาจักรย่อย"
+ DI_take_character_titles: "ตำแหน่งของตัวละคร"
+ DI_change_house_name_interaction: "เปลี่ยนชื่อวงศ์ตระกูล"
+ DI_change_house_name_desc: "เลือกชื่อแบบกำหนดเองให้กับวงศ์ตระกูลของตัวละครที่เลือก"
+ DI_changeHouseName.t: "เปลี่ยนชื่อวงศ์ตระกูล"
+ DI_changeHouseName.d: "เลือกชื่อแบบกำหนดเองให้กับวงศ์ตระกูลของตัวละครที่เลือก"
+ DI_abdicate: "สละราชสมบัติ"
+ DI_reset_story_variables: "รีเซ็ตตัวแปรของเรื่องราว"
+ DI_reset_story_variables_desc: "รีเซ็ตตัวแปรของเมนูต่าง ๆ ใช้เมื่อมีปัญหาเกี่ยวกับตัวเลือกเมนู แต่ควรส่งเซฟเกมและภาพปัญหามาด้วย"
+ DI_permanent_health: "สุขภาพถาวร"
+ DI_permanent_health_desc: "เพิ่มสถานะให้ตัวละครที่ลบสถานะสุขภาพไม่ดี/ตัวปรับแต่ง/ลักษณะออกปีละครั้ง ซึ่งเหมือนกับการแก้ไขปัญหาสุขภาพในตัวแก้ไขตัวละคร แต่จะทำงานอัตโนมัติปีละครั้ง"
+ no_lifestyle_diplomacy:0 "การทูต (หยุดแจ้งเตือน)"
+ no_lifestyle_martial:0 "การทหาร (หยุดแจ้งเตือน)"
+ no_lifestyle_stewardship:0 "การบริหาร (หยุดแจ้งเตือน)"
+ no_lifestyle_intrigue:0 "การวางแผนลับ (หยุดแจ้งเตือน)"
+ no_lifestyle_learning:0 "การเรียนรู้ (หยุดแจ้งเตือน)"
+ no_lifestyle_wandering:0 "การเดินทาง (หยุดแจ้งเตือน)"
+ no_stress_change:0 "ความเครียด: ล็อก"
+ no_tyranny_change:0 "การกดขี่: ล็อก"
+ no_dread_change:0 "ความกลัว: ล็อก"
+ DI_spawn_legend_interaction: "สร้างตำนาน"
+ DI_inspire_inspiration_interaction: "จุดประกายแรงบันดาลใจ"
+ DI_sponsor_inspiration_interaction: "สนับสนุนแรงบันดาลใจ"
+ actor_secondary_DI_arrange_marriage_interaction: "ตัวเลือกคู่สมรส"
+ DI_cultural_acceptance_interaction: "เปลี่ยนการยอมรับทางวัฒนธรรม"
+ DI_make_independent_interaction: "ทำให้เป็นอิสระ"
+ DI_take_hostage_interaction: "จับตัวประกัน"
+ DI_release_hostage_interaction: "ปล่อยตัวประกัน"
+ DI_make_laamp_interaction: "สร้าง Laamp"
+ DI_move_domicile_interaction: "ย้ายถิ่นฐาน"
+ DI_populate_contracts_interaction: "สร้างสัญญา"
+ DI_infinite_schemes_interaction: "แผนการไม่มีที่สิ้นสุด"
+ DI_antagonize_court_interaction: "ต่อต้านราชสำนัก"
+ DI_buff_schemes_interaction: "เพิ่มพลังแผนการ"
+ used_lifetime_invasion: "ใช้การรุกรานตลอดชีวิต"
+ DI_remove_character_flags_interaction: "ลบธงตัวละคร"
+ ### Character Interaction Events
+ DI_sex_interaction_t: "ค่ำคืนที่น่าจดจำ"
+ DI_cadetBranch_interaction: "สร้างสาขาย่อยของราชวงศ์"
+ DI_cadetBranch_interaction_1.desc: "[dynast_interaction|E] [recipient.GetFirstNameNoTooltip] สร้างสาขาย่อยใหม่ของราชวงศ์"
+ DI_cadetBranch_event_1.t: "[recipient.GetFirstNameNoTooltip] กลายเป็นหัวหน้าสาขาย่อยของบ้าน"
+ DI_cadetBranch_event_1.desc: "#bold [recipient.GetFirstNameNoTooltip]#! จะกลายเป็นหัวหน้าสาขาย่อยใหม่ของราชวงศ์"
+ DI_cadetBranch_event_option.1: "ขอให้ครอบครัวของ [recipient.GetFirstNameNoTooltip] รุ่งเรือง"
+ DI_cadetBranch_event_tooltip.1: "[recipient.GetFirstName] ได้สร้างสาขาย่อยของราชวงศ์"
+ random_secret: "ความลับแบบสุ่ม"
+ every_secret: "ทุกความลับ"
+ ### Events
+ DI_char_editor.1.title: "เปลี่ยนชื่อ ตัวละคร"
+ DI_char_editor.1.desc: "ยินดีต้อนรับสู่ตัวแก้ไขชื่อ ตัวละคร 9000, ใช้มันกับเพื่อนของคุณ"
+ DI_char_editor.1.option: "เสร็จสิ้น"
+ DI_default_text: "ค่าเริ่มต้น"
+ artifact_return: "กลับ"
+ DI_artifact_desc: "[GetPlayer.GetLocalizedText( 'test_saved_text' )]"
+ DI_artifact_desc_append: "[selected_artifact.GetDesc] [GetPlayer.GetLocalizedText( 'test_saved_text' )]"
+ DI_artifact_new_desc: "คำอธิบายใหม่"
+ DI_artifact_append_desc: "เพิ่มคำอธิบาย"
+ ### Test ###
+ DI_pregnancy_test: "เหตุการณ์การทดสอบการตั้งครรภ์"
+ DI_char_editor.1: "เหตุการณ์เปลี่ยนชื่อ ตัวละคร"
+ DI_test_desc: "นี่คือการทดสอบการโต้ตอบ"
+ ### Localized custom text ###
+ DI_custom_text: "[GetPlayer.GetLocalizedText( 'saved_text' )]"
+ houseName: "ตั้งชื่อวงศ์ตระกูล"
+ DI_get_house_name: "[recipient.GetDynastyHouseNameNoTooltip]"
+ CHEAT_ACTIONS: "การแทรกแซงของพระเจ้า"
