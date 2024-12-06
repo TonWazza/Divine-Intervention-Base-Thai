@@ -1,6 +1,7 @@
 # Thai-Divine-Intervention-Base
 
 ลิงก์ Steam Workshop : https://steamcommunity.com/sharedfiles/filedetails/?id=3377265191
+ลิงก์ Paradox Mods : https://mods.paradoxplaza.com/mods/95972/Any
 
 วิธีการนำไปใช้
 1. โคลน (Clone) หรือ ดาวน์โหลด (Download) ไฟล์
